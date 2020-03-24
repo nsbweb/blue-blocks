@@ -100,8 +100,10 @@
     animation-name: fadeInUp
 }
 
-[class^=fc-]:before { content: ''; display: inline-block; padding: 0; margin:0; background-position:no-repeat; background-size: cover ; }
-.fc-clock:before { }
+[class^=fc-]:before { content: ''; display: inline-block; padding: 0; margin:0; background-position:left top; background-repeat: no-repeat; background-size: cover; height: 100%; }
+.fc-clock:before { background-image: url(../images/common/icons/fc-clock.png); width: 29px; height: 29px;}
+.fc-map-marker:before { background-image: url(../images/common/icons/fc-map-marker.png); width: 18px; height: 28px; }
+.fc-call:before { background-image: url(../images/common/icons/fc-phone.png); width: 15px; height: 34px; }
 /* Comon Css */
 
 
@@ -118,6 +120,7 @@ header .nav-scroller .nav > a:first-child { margin-left: 0;}
 header .nav-scroller .nav > a:last-child { margin-right: 0;}
 header .header-rt > .rt-sec { display: -webkit-box!important; display: -ms-flexbox!important; display: flex!important; }
 header .header-rt > .rt-sec + .rt-sec  { margin-left: 1.9em; }
+header .header-rt > .rt-sec > i + .txt-Cont { padding-left: 0.8em; }
 header .header-rt > .rt-sec > .txt-Cont { text-transform: uppercase; }
 header .header-rt > .rt-sec > .txt-Cont > b { font-size: 0.83em; color: #2d3092; font-weight: 700; }
 header .header-rt > .rt-sec > .txt-Cont > .txt > p { margin:0; font-size: 0.9em; color: #008fd5; font-weight: 600;}
