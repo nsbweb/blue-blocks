@@ -1,0 +1,28 @@
+
+@media (min-width: 992px){
+body { font-size: 11px; }
+.container { max-width: 720px;}
+}
+
+@media (min-width: 1366px){
+    body { font-size: 12px; }
+.container { max-width: 960px;}
+}
+
+@media (min-width: 1700px){
+body { font-size: 15px; }
+.container { max-width: 1500px;}
+}
+
+@media (min-width: 1700px){
+}
+
+@media (max-width: 1366px){
+}
+
+@media (max-width: 1024px){
+}
+
+@media (max-width: 768px){
+body { font-size: 10px; }
+}
