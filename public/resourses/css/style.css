@@ -100,6 +100,27 @@
     animation-name: fadeInUp
 }
 
+
+
+@keyframes float {
+	0% {
+		transform: translatey(0px);
+	}
+	50% {
+		transform: translatey(-20px);
+	}
+	100% {
+		transform: translatey(0px);
+	}
+}
+
+
+.floating-obj {
+	transform: translatey(0px);
+	animation: float 6s ease-in-out infinite;
+}
+.floating-obj img { width: 100%; height: auto; }
+
 [class^=fc-]:before { content: ''; display: inline-block; padding: 0; margin:0; background-position:left top; background-repeat: no-repeat; background-size: cover; height: 100%; }
 .fc-clock:before { background-image: url(../images/common/icons/fc-clock.png); width: 29px; height: 29px;}
 .fc-map-marker:before { background-image: url(../images/common/icons/fc-map-marker.png); width: 18px; height: 28px; }
@@ -146,14 +167,17 @@ header .social-links > li > a { color:#9f9f9f; }
 /* Ends :: Header */
 
 /* Starts :: Banner */
-.banner { padding: 70px 0; }
-.banner-txt {  }
+.banner { padding: 70px 0; position: relative; }
+.banner-txt { position: relative; }
 .banner-txt > p > b { font-size: 2.567em; font-weight: 700; text-transform: uppercase;}
 .banner-txt > p > b > span { font-weight: 600; display: inline-block;}
 .banner-txt > p > b.spl-txt { font-size: 3.9em; display: inline-block }
-.banner-img { /*width: 710px; height:638px;*/ width: 70vw; height:40vw; position: relative;}
+.banner-img { /*width: 710px; height:638px;*/ width: 70vw; height:auto; position: relative;}
 .banner-img:before { content: ''; position: absolute; left:0; top: 0; width:100%; height:100%; background: url(../images/home/banner-img-overlay.png) no-repeat left top; background-size: contain; }
 .banner-img img { object-fit: cover; max-width: 100%; }
+.drone-obj { position: absolute; left:0; top: 0; width: 19.3em; height: 17.4em; }
+.creativity-obj {position: absolute; right:0; bottom: 0; width:14.6em; height: 10.7em; }
+.bag-obj {position: absolute; left:6em; top: 100%; width:6.4em; height: 8.33em; }
 /* Ends :: Banner */
 
 /* Main-Content */
@@ -176,6 +200,10 @@ header .social-links > li > a { color:#9f9f9f; }
 .card.thumn-desc .card-body h3 { font-size: 1.23em; line-height: 1.5em; text-transform: uppercase; margin: 0; font-weight: 600; }
 .card.thumn-desc .card-body p { font-size: 1.23em; line-height: 1.5em;  }
 .card.thumn-desc .card-body h3 + p { margin-top: 35px; }
+
+.testimonial-slide {}
+.testimonial-slide .slide { max-width:80%; margin: 0 auto; text-align: center; }
+.testimonial-slide .slide { max-width:80%; margin: 0 auto; text-align: center; }
 
 .grid-item {  }
 .grid-item > a { display: inline-block; width: 100%; }
