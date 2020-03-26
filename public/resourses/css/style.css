@@ -202,7 +202,7 @@ header .social-links > li > a { color:#9f9f9f; }
 .card.thumn-desc .card-body p { font-size: 1.23em; line-height: 1.5em;  }
 .card.thumn-desc .card-body h3 + p { margin-top: 35px; }
 
-.testimonial-slide {}
+.testimonial-slide { margin-bottom: 8em;;}
 .testimonial-slide .slide { max-width:95%; margin: 0 auto; text-align: center; }
 .testimonial-slide .slide p { font-size: 1.6em; font-style: italic; }
 .testimonial-slide .slide p + ul { padding-top: 2.0em; }
@@ -213,7 +213,17 @@ header .social-links > li > a { color:#9f9f9f; }
 .testimonial-slide .slide ul li .name { font-weight: 600; color: #9cce17; text-transform: uppercase; }
 .testimonial-slide .slide ul li .name-role { font-style: italic; font-weight: 500; }
 .testimonial-slide .slide > .testimonials-img { border-radius: 100%; overflow: hidden; width:11.067em; height:11.067em; margin:0 auto; }
-
+.testimonial-slide.owl-theme .owl-nav { margin: 0;  }
+.testimonial-slide.owl-theme .owl-dots { position: absolute;left: 0;right: 0; top: 100%; margin-top: 6em; }
+.testimonial-slide.owl-theme .owl-dots .owl-dot span { width:1.2em; height:1.2em; margin: 0 0.5em; background: #00aeef; } 
+.testimonial-slide.owl-theme .owl-dots .owl-dot.active span, 
+.testimonial-slide.owl-theme .owl-dots .owl-dot:hover span { background: #ffde39; }
+.testimonial-slide.owl-theme .owl-nav [class*=owl-] { width:2.4em; height: 2.6em; background:none; background-repeat: no-repeat; background-position: left center; background-size: contain; position: absolute; top: calc(50% - 2.6em); font-size: 1em; margin:0; padding: 0;}
+.testimonial-slide.owl-theme .owl-nav [class*=owl-]:hover { background: none; }
+.testimonial-slide.owl-theme .owl-nav .owl-prev { background-image: url(../images/common/icons/fc-arrow-left.png); left: 0;}
+.testimonial-slide.owl-theme .owl-nav .owl-next { background-image: url(../images/common/icons/fc-arrow-right.png); right: 0;}
+.testimonial-slide.owl-theme .owl-nav .owl-prev:hover { background-image: url(../images/common/icons/fc-arrow-left.png);background-size: contain;  }
+.testimonial-slide.owl-theme .owl-nav .owl-next:hover { background-image: url(../images/common/icons/fc-arrow-right.png);background-size: contain; } 
 
 .grid-item {  }
 .grid-item > a { display: inline-block; width: 100%; }
@@ -240,7 +250,7 @@ header .social-links > li > a { color:#9f9f9f; }
 .footer-nav > li > a { font-size: 1.233em; color: #000; }
 footer .social-links > li > a{ color:#1d1d1b; }
 .social-links + .action-links { margin-top: 1.867em; }
-.action-links { list-style: none; padding: 0; margin: 0;}
+.action-links { list-style: none; padding: 0 ; margin: 0;}
 .action-links li { font-size: 1.233em; }
 .action-links li + li { margin-top: 0.5em;}
 .action-links > li + li { margin-top: 1.800em; }
