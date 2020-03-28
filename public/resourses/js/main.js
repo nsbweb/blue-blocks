@@ -253,3 +253,7 @@ $('.testimonial-slide').owlCarousel({
     autoplayTimeout: 8000,
     autoplayHoverPause: true
 });
+
+$('.grid').masonry({
+    itemSelector: '.grid-item',
+});
