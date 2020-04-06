@@ -26,7 +26,8 @@
 .btn-secondary { background: #2c2f91; }
 
 .main-tl { font-size: 2.567em; text-align: center; font-weight:700; position: relative; padding: 0 0 20px; margin: 0 0 20px; text-transform: uppercase;}
-.main-tl:before { content: ''; width: 4.067em; height: 0.867em; background: url(../images/common/yellow-underline.png) no-repeat center; position: absolute; left:calc(50% - 2em); bottom: 0; }
+.main-tl.large, h1.main-tl { font-size: 3.8em; }
+.main-tl:before { content: ''; width: 4.067em; height: 0.867em; background: url(../images/common/yellow-underline.png) no-repeat center; position: absolute; left:calc(50% - 2em); top: calc(100% - 0.667em); }
 .main-tl.blue { color: #008fd5; }
 .main-tl.blue:before { background-image: url(../images/common/green-underline.png); }
 h3.main-tl { font-size:1.8em; font-weight: 600; }
@@ -143,14 +144,21 @@ header .nav-scroller { height: auto; }
 header .nav-scroller .nav { padding: 6px 0; margin: 0; }
 header .nav-scroller .nav > a { padding: 0.9em 1.8em; margin: 0 1em;text-decoration: none; font-size: 1.1em; color: #000000; font-weight: 600; text-transform: uppercase;}
 header .nav-scroller .nav > a:hover { background: #ddd; }
-header .nav-scroller .nav > a:first-child { margin-left: 0;}
-header .nav-scroller .nav > a:last-child { margin-right: 0;}
 header .header-rt > .rt-sec { display: -webkit-box!important; display: -ms-flexbox!important; display: flex!important; }
 header .header-rt > .rt-sec + .rt-sec  { margin-left: 1.9em; }
 header .header-rt > .rt-sec > i + .txt-Cont { padding-left: 0.8em; }
 header .header-rt > .rt-sec > .txt-Cont { text-transform: uppercase; }
 header .header-rt > .rt-sec > .txt-Cont > b { font-size: 0.83em; color: #2d3092; font-weight: 700; }
 header .header-rt > .rt-sec > .txt-Cont > .txt > p { margin:0; font-size: 0.9em; color: #008fd5; font-weight: 600;}
+
+.navbar-toggler { position: relative; width:3em; height: 3em; }
+.navbar-toggler-icon,
+.navbar-toggler-icon:before,
+.navbar-toggler-icon:after { height: 3px; position: absolute; background: #000; left: 0; width:auto; right: 0; }
+
+.navbar-toggler-icon { top:calc(50% - 3px); left: .75rem; right: .75rem; }
+.navbar-toggler-icon:before { content: ''; top:calc(50% - 13px); }
+.navbar-toggler-icon:after { content: ''; top:calc(50% - -9px); }
 
 .social-links { display: inline-block; list-style: none; padding: 0; margin: 0; }
 .social-links > li { display: inline-block; padding: 0; margin: 0; }
@@ -198,9 +206,6 @@ header .social-links > li > a { color:#9f9f9f; }
 
 .abt-sec-wrap { background-color: #fbe153; }
 .abt-sec, .abt-rt-sec { max-width: 480px; padding: 2.667em 5.667em; }
-.abt-sec-wrap > .abt-sec { padding-left: 0; }
-.abt-rt-sec-top > .abt-rt-sec, 
-.abt-rt-sec-bot > .abt-rt-sec { padding-right: 0; }
 .abt-rt-sec-top { background: #9dcd17; }
 .abt-rt-sec-bot { background:#ffffff; }
 .abt-sec .tl-cont, .cont-sec .tl-cont { margin-bottom: 3em; }
@@ -278,7 +283,7 @@ header .social-links > li > a { color:#9f9f9f; }
 /* Main-Content */
  
 /* Starts :: Footer */
-.top-sec { padding: 80px 0; color: #000000;}
+.top-sec { padding: 5em 0; color: #000000;}
 .top-sec h2{ font-size: 1.567em; font-weight: 600; color: #000000; margin:0; padding: 0;  text-transform: uppercase; white-space: nowrap; margin-bottom: 20px; }
 .footer-logo { display: block;}
 .footer-logo > img { max-width:100%;}
@@ -304,6 +309,13 @@ footer .social-links > li > a{ color:#1d1d1b; }
 /* Ends :: About Us */
 
 /* Start :: Montessori */
+.sec-info-txt {  }
+.sec-info-txt .tl-sec { margin-bottom: 3em;; }
+.sec-info-txt .tl-sec .tl-bg { padding: 0.5em 1em; font-size: 2.25em; font-weight: 600; color: #fff;}
+.info-txt {  }
+.info-txt figure { min-width:38em; padding: 0 3em 0 0; }
+.info-txt figure > img { object-fit:cover; max-width:100%;}
+.info-txt .text-cont p { font-size:1.4em; font-style: italic; line-height: 1.4em; }
 
 /* Ends :: Montessori */
 
