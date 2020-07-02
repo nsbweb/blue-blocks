@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="description" content="">
+<meta name="author" content="">
+<link rel="icon" href="../public/resourses/images/favicons/favicon.ico">
+<title>Blue Blocks :: Contact Us</title>
+<!-- Starts : Header JS CSS -->
+<!--#include virtual="../public/includes/header-js-css.inc"-->
+<!-- End : Header JS CSS -->
+</head>
+<body>
+<!-- Starts : Header -->
+<!--#include virtual="../public/includes/header.inc"-->
+<!-- End : header -->
+
+<main role="main">
+<!-- Starts : GET IN TOUCH -->
+    <div class="section animated" data-animation="fadeInUp" data-animation-delay="300">
+        <div class="container">
+            <h2 class="main-tl animated" data-animation="fadeInUp" data-animation-delay="300">Contact Us</h2>
+            <div class="row">
+                <div class="col-sm-6 map-cont">
+                    <div class="d-flex">
+                        <i class="fa fa-map-marker animated" data-animation="fadeInUp" data-animation-delay="300"></i>
+                        <address class=" animated" data-animation="fadeInUp" data-animation-delay="300">
+                            <b>Blue Blocks Preschool</b> 
+                            <p>MIG 3, Lane opposite to DLF, Gachibowli. Hyderabad. Telangana</p>
+                        </address>
+                    </div>
+                    <figure class="map-container animated" data-animation="fadeInUp" data-animation-delay="300">
+                        <img src="../public/resourses/images/contact/map-img-01.jpg" alt="">
+                    </figure>
+                </div>
+                <div class="col-sm-6 map-cont">
+                    <div class="d-flex">
+                        <i class="fa fa-map-marker animated" data-animation="fadeInUp" data-animation-delay="300"></i>
+                        <address class=" animated" data-animation="fadeInUp" data-animation-delay="300">
+                            <b>Blue Blocks School</b>
+                            <p>Tellapur. Hyderabad. Telangana</p>
+                        </address>
+                    </div>
+                    <figure class="map-container animated" data-animation="fadeInUp" data-animation-delay="300">
+                        <img src="../public/resourses/images/contact/map-img-02.jpg" alt="">
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- Ends : GET IN TOUCH -->
+
+<div class="section bg-blue-light animated" data-animation="fadeInUp" data-animation-delay="300">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6 d-sm-flex align-items-center">
+                <div class="cont-sec">
+                    <div class="tl-cont animated" data-animation="fadeInUp" data-animation-delay="300">
+                        <h4 class="m-sub-tl">Have a Question?</h4>
+                        <h2 class="main-tl blue yellow">Contact Details</h2>
+                    </div>
+                    <ul class="contact-list">
+                        <li class=" animated" data-animation="fadeInUp" data-animation-delay="300">
+                            <div class="d-flex">
+                                <i class="icn fa fa-envelope-o"></i>
+                                <div class="text">
+                                    <b>Email</b>
+                                    <a href="mailto:info@blueblocks.in">info@blueblocks.in</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class=" animated" data-animation="fadeInUp" data-animation-delay="400">
+                            <div class="d-flex">
+                                <i class="icn fa fa-phone"></i>
+                                <div class="text">
+                                    <b>Phone</b>
+                                    <a href="tel:+919000955050">+91 9000955050</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class=" animated" data-animation="fadeInUp" data-animation-delay="500">
+                            <div class="d-flex">
+                                <i class="icn fa fa-whatsapp"></i>
+                                <div class="text">
+                                    <b>Whatsapp</b>
+                                    <a href="tel:+919000955053">+91 9000955053</a>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="cont-sec">
+                    <div class="tl-cont animated" data-animation="fadeInUp" data-animation-delay="300">
+                        <h3 class="main-tl green">Get in touch</h3>
+                    </div>
+                    <div class="form-sec">
+                        <form class="form-group">
+                            <input type="text" class="form-control  animated" data-animation="fadeInUp" data-animation-delay="300" placeholder="Name*" name="name">
+                            <input type="email" class="form-control  animated" data-animation="fadeInUp" data-animation-delay="400" placeholder="Email*" name="email">
+                            <textarea class="form-control  animated" data-animation="fadeInUp" data-animation-delay="500">Message*</textarea>
+                            <button type="submit" class="btn btn-anim btn-secondary animated" data-animation="fadeInUp" data-animation-delay="600"><span>SUBMIT</span></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Starts : KNOW MORE -->
+<div class="section bg-light animated section-0" data-animation="fadeInUp" data-animation-delay="300">
+    <div class="abt-rt-sec-top d-sm-flex justify-content-center">
+        <div class="abt-rt-sec">
+            <div class="d-sm-flex align-items-center">
+                <div class="logo-content">
+                    <img src="../public/resourses/images/common/drone-research-logo.png">
+                </div>
+                <div class="">
+                    <a href="#" class="btn btn-anim btn-white"><span>KNOW MORE</span></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Ends : KNOW MORE -->
+</main>
+
+<!-- Starts : Footer -->
+<!--#include virtual="../public/includes/footer.inc"-->
+<!-- End : Footer -->
+</body>
+</html>

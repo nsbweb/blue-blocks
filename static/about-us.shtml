@@ -1,0 +1,538 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="description" content="">
+<meta name="author" content="">
+<link rel="icon" href="../public/resourses/images/favicons/favicon.ico">
+<title>Blue Blocks :: About Us</title>
+<!-- Starts : Header JS CSS -->
+<!--#include virtual="../public/includes/header-js-css.inc"-->
+<!-- End : Header JS CSS -->
+</head>
+<body>
+<!-- Starts : Header -->
+<!--#include virtual="../public/includes/header.inc"-->
+<!-- End : header -->
+
+<main role="main">
+    <div class="section bg-light animated sec-info-txt" data-animation="fadeInUp" data-animation-delay="300">
+        <div class="container">
+            <h1 class="main-tl large blue animated" data-animation="fadeInUp" data-animation-delay="300">About US</h1>
+            <div class="tl-sec d-sm-flex justify-content-start align-content-between">
+                <div class="tl-bg bg-green animated align-content-between" data-animation="fadeInUp" data-animation-delay="400">School Ethos</div>
+                <div class="tl-txt animated d-sm-flex align-content-between " data-animation="fadeInUp" data-animation-delay="500"><p>A Montessori school in spirit and letter, a Cambridge affiliated international school, Blue Blocks offers education that is the best of both worlds.</p></div>
+            </div>
+            <div class="info-txt d-sm-flex justify-content-start">
+                <figure class=" animated" data-animation="fadeInUp" data-animation-delay="500"><img src="../public/resourses/images/about-us/about-us-img-01.jpg" alt=""></figure>
+                <div class="text-cont animated" data-animation="fadeInUp" data-animation-delay="600">
+                    <p>Blue Blocks was established in 2009 in Hyderabad with the vision to provide a rich and resourceful schooling environment.. Blue Blocks follows the Montessori philosophy of guiding a child to knowledge and is affiliated with Cambridge School Education to impart the curriculum for grades 1 to 10.</p>
+                    <p>The school empowers the child with self-confidence and independence to develop a well rounded personality.</p>
+                    <p>Our focus is on giving children the freedom to choose what they want to learn and promote their decision making skills. We believe experience is the best teacher and strive to make each day memorable for the child.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section bg-blue-light animated has-shadow shadow-bt" data-animation="fadeInUp" data-animation-delay="300">
+        <div class="container">
+            <h2 class="main-tl blue green animated" data-animation="fadeInUp" data-animation-delay="300">OUR TEAM</h2>
+            <div class="row d-sm-flex justify-content-center">
+                <div class="col-sm-11">
+                    <div class="row">
+                        <div class="col-sm-6 animated fadeInUp visible" data-animation="fadeInUp" data-animation-delay="600">
+                            <div class="card box-shadow thumn-desc">                      
+                            <figure class="card-img-top">
+                                <img class="" src="../public/resourses/images/about-us/founder-img-01.jpg" alt="Card image cap">
+                                <figcaption class="bg-green">Founder</figcaption>
+                            </figure>
+                            <div class="card-body">
+                                <h3 class="md">Pavan Goyal</h3>
+                                <p>Pavan Goyal has the AMI Intensive Training from USA for the age group of zero to three years making him an authority on understanding and handling infants and toddlers. He received his AMI certification in the age group of three to six and six to 12 from Netherlands. Pavan Goyal is certified to establish and run Montessori schools worldwide.</p>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="col-sm-6 animated fadeInUp visible" data-animation="fadeInUp" data-animation-delay="700">
+                            <div class="card box-shadow thumn-desc">                      
+                                <figure class="card-img-top">
+                                    <img class="" src="../public/resourses/images/about-us/co-founder-img-01.jpg" alt="Card image cap">
+                                    <figcaption class="bg-green">co-Founder</figcaption>
+                                </figure>
+                                <div class="card-body">
+                                    <h3 class="md">Munira Hussain</h3>
+                                    <p>A graduate in Psychology, Munira is AMI Trained in the Primary Environment of three to six year olds and Elementary programme for 6 to 12 year olds. Having worked in Montessori Schools in 2004-05, Munira has been part of the Blue Block family since inception in 2009.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="carousel three-items owl-theme-01">
+                <div class="slide">
+                    <div class="card box-shadow thumn-desc">                      
+                        <figure class="card-img-top">
+                            <img class="" src="../public/resourses/images/about-us/staff-img-01.jpg" alt="Card image cap">
+                            <figcaption class="bg-green">Designation</figcaption>
+                        </figure>
+                        <div class="card-body">
+                            <h3 class="sm">Ms. Asma Sultana</h3>
+                            <p>has been working in our Toddler Environment since 2016. Prior to this she has worked in other Montessori schools. Her keen interest in understanding the development a young child goes through has led her to join the Toddlers Assistant Infancy Training.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="card box-shadow thumn-desc">                      
+                        <figure class="card-img-top">
+                            <img class="" src="../public/resourses/images/about-us/staff-img-01.jpg" alt="Card image cap">
+                            <figcaption class="bg-green">Designation</figcaption>
+                        </figure>
+                        <div class="card-body">
+                            <h3 class="sm">Ms. Humera Jabeen </h3>
+                            <p>has been in the teaching profession for the last six years. She is passionate about working with younger children and has been with Blue Blocks since 2018.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="card box-shadow thumn-desc">                      
+                        <figure class="card-img-top">
+                            <img class="" src="../public/resourses/images/about-us/staff-img-01.jpg" alt="Card image cap">
+                            <figcaption class="bg-green">Designation</figcaption>
+                        </figure>
+                        <div class="card-body">
+                            <h3 class="sm">Ms. Amita Sethia </h3>
+                            <p>has done her Masters in Psychology. She has completed her AMI Primary Diploma and has been working with Blue Blocks since 2019.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="card box-shadow thumn-desc">                      
+                        <figure class="card-img-top">
+                            <img class="" src="../public/resourses/images/about-us/sri-lakshmi.jpg" alt="Ms. Sri Lakshmi">
+                            <figcaption class="bg-green">Designation</figcaption>
+                        </figure>
+                        <div class="card-body">
+                            <h3 class="sm">Ms. Sri Lakshmi </h3>
+                            <p>happened to visit our annual event, Explore Montessori, and was so impressed with our children that she decided to do the AMI primary training. She has completed her AMI Primary Diploma and has been working with Blue Blocks since 2019.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="card box-shadow thumn-desc">                      
+                        <figure class="card-img-top">
+                            <img class="" src="../public/resourses/images/about-us/staff-img-01.jpg" alt="Card image cap">
+                            <figcaption class="bg-green">Designation</figcaption>
+                        </figure>
+                        <div class="card-body">
+                            <h3 class="sm">Ms. Chilumula Usha  </h3>
+                            <p>completed her AMI primary diploma in 2013 and has since been associated with Blue Blocks and has 10 years of experience in Montessori Schools. She is a firm believer that Montessori impacts the child in the most profound way.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="card box-shadow thumn-desc">                      
+                        <figure class="card-img-top">
+                            <img class="" src="../public/resourses/images/about-us/satyasree.jpg" alt="Card image cap">
+                            <figcaption class="bg-green">Designation</figcaption>
+                        </figure>
+                        <div class="card-body">
+                            <h3 class="sm">Ms. A. Satyasree</h3>
+                            <p>completed her AMI Primary Diploma in the year 2016 and has since been associated with Blue Blocks. Her zeal to work with children has increased day by day. She believes that children are our future and our greatest treasure.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="card box-shadow thumn-desc">                      
+                        <figure class="card-img-top">
+                            <img class="" src="../public/resourses/images/about-us/staff-img-01.jpg" alt="Card image cap">
+                            <figcaption class="bg-green">Designation</figcaption>
+                        </figure>
+                        <div class="card-body">
+                            <h3 class="sm">Ms. B.M.Pauleena  </h3>
+                            <p>completed her AMI diploma in 2017-18 and has since been working with Blue Blocks. She credits her Montessori AMI training to her friend’s son who motivated her to embark on this journey.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="card box-shadow thumn-desc">                      
+                        <figure class="card-img-top">
+                            <img class="" src="../public/resourses/images/about-us/anantha-lakshmi.jpg" alt="Ms. Anantha Lakshmi">
+                            <figcaption class="bg-green">Designation</figcaption>
+                        </figure>
+                        <div class="card-body">
+                            <h3 class="sm">Ms. Anantha Lakshmi  </h3>
+                            <p>came to know about the Montessori philosophy while doing her BEd. She was so enamored by the philosophy that she decided to pursue it immediately. After training for her AMI diploma she joined Blue Blocks in 2019 and brought with her a passion for teaching, arts and crafts.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="card box-shadow thumn-desc">                      
+                        <figure class="card-img-top">
+                            <img class="" src="../public/resourses/images/about-us/batool-shaheed.jpg" alt="Ms Batool Shaheed Ali">
+                            <figcaption class="bg-green">Designation</figcaption>
+                        </figure>
+                        <div class="card-body">
+                            <h3 class="sm">Ms Batool Shaheed Ali  </h3>
+                            <p>completed her AMI diploma in 1997 and has several decades of experience working with children. The uniqueness of the Montessori Method continues to amaze her. She has been a guiding light for all in Blue Blocks since 2015</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="card box-shadow thumn-desc">                      
+                        <figure class="card-img-top">
+                            <img class="" src="../public/resourses/images/about-us/ayesha.jpg" alt="Ms. Sahibzadi Ayesha Basheer Unnisa’s">
+                            <figcaption class="bg-green">Designation</figcaption>
+                        </figure>
+                        <div class="card-body">
+                            <h3 class="sm">Ms. Sahibzadi Ayesha Basheer Unnisa’s  </h3>
+                            <p>journey with Montessori began with AMI Assistant Course which led her to do the AMI Primary Diploma and joined Blue Blocks in 2017. She believes that Montessori philosophy, if implemented correctly, can enable the children to change the world.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="card box-shadow thumn-desc">                      
+                        <figure class="card-img-top">
+                            <img class="" src="../public/resourses/images/about-us/staff-img-01.jpg" alt="Card image cap">
+                            <figcaption class="bg-green">Designation</figcaption>
+                        </figure>
+                        <div class="card-body">
+                            <h3 class="sm">Ms. Navya </h3>
+                            <p>completed her Assistant’s Training and then decided to do her AMI Primary Diploma. Having worked with Blue Blocks prior to her training, she did not hesitate to get back and spearhead her own environment with great aplomb since 2019.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="card box-shadow thumn-desc">                      
+                        <figure class="card-img-top">
+                            <img class="" src="../public/resourses/images/about-us/priya.jpg" alt="Ms. R Shanmuga Priya">
+                            <figcaption class="bg-green">Designation</figcaption>
+                        </figure>
+                        <div class="card-body">
+                            <h3 class="sm">Ms. R Shanmuga Priya </h3>
+                            <p>started off as a Montessori parent and before long realized her potential lay in guiding children to benefit from this methodology. She has worked with Blue Blocks as an Assistant Directress in primary for five years and is now working as the directress of the elementary environment since 2019.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="card box-shadow thumn-desc">                      
+                        <figure class="card-img-top">
+                            <img class="" src="../public/resourses/images/about-us/staff-img-01.jpg" alt="Card image cap">
+                            <figcaption class="bg-green">Designation</figcaption>
+                        </figure>
+                        <div class="card-body">
+                            <h3 class="sm">Ms. Uma’s </h3>
+                            <p>association with Montessori began when she sent her son to a Montessori school. Inspired by the pedagogy she has done her AMI Elementary training from Navadisha, Chennai. She has also finished her AMI primary training and is currently working as a directress in the elementary environment since 2017.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="card box-shadow thumn-desc">                      
+                        <figure class="card-img-top">
+                            <img class="" src="../public/resourses/images/about-us/staff-img-01.jpg" alt="Card image cap">
+                            <figcaption class="bg-green">Designation</figcaption>
+                        </figure>
+                        <div class="card-body">
+                            <h3 class="sm">Ms. Vidushi Govil </h3>
+                            <p>brings with her 15 plus years of teaching experience. She is an AMI Elementary Diploma holder and a directress in the Elementary environment since 2019.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="card box-shadow thumn-desc">                      
+                        <figure class="card-img-top">
+                            <img class="" src="../public/resourses/images/about-us/staff-img-01.jpg" alt="Card image cap">
+                            <figcaption class="bg-green">Designation</figcaption>
+                        </figure>
+                        <div class="card-body">
+                            <h3 class="sm">Ms. Rozina Lalani  </h3>
+                            <p>has been with Blue Blocks since its inception. She completed her AMI training in 2001, and ever since has been working with children from different nationalities  and backgrounds. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="card box-shadow thumn-desc">                      
+                        <figure class="card-img-top">
+                            <img class="" src="../public/resourses/images/about-us/staff-img-01.jpg" alt="Card image cap">
+                            <figcaption class="bg-green">Designation</figcaption>
+                        </figure>
+                        <div class="card-body">
+                            <h3 class="sm">Ms. Manjula  </h3>
+                            <p>is a Masters in Physical Education from Osmania University. She has five years of experience working with children and is currently the sports mentor at Blue Blocks since 2017.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="card box-shadow thumn-desc">                      
+                        <figure class="card-img-top">
+                            <img class="" src="../public/resourses/images/about-us/staff-img-01.jpg" alt="Card image cap">
+                            <figcaption class="bg-green">Designation</figcaption>
+                        </figure>
+                        <div class="card-body">
+                            <h3 class="sm">Ms. R Kiranmayi </h3>
+                            <p>is a post graduate in analytical chemistry and has seven years teaching experience at various levels. As a science and innovation mentor she brings with her a scientific mindset and a keen enthusiasm to develop a passion for science among the elementary children. She has been with Blue Blocks since 2019.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="card box-shadow thumn-desc">                      
+                        <figure class="card-img-top">
+                            <img class="" src="../public/resourses/images/about-us/staff-img-01.jpg" alt="Card image cap">
+                            <figcaption class="bg-green">Designation</figcaption>
+                        </figure>
+                        <div class="card-body">
+                            <h3 class="sm">Aparesh Pal  </h3>
+                            <p>has been painting from the age of five. He has honed his skills first at Kalabhavan in Shantiniketan where he did his bachelors and then went on to do masters in fine arts from University of Hyderabad. He is currently the art mentor at Blue Blocks since 2019.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="card box-shadow thumn-desc">                      
+                        <figure class="card-img-top">
+                            <img class="" src="../public/resourses/images/about-us/staff-img-01.jpg" alt="Card image cap">
+                            <figcaption class="bg-green">Designation</figcaption>
+                        </figure>
+                        <div class="card-body">
+                            <h3 class="sm">Ms. Divya </h3>
+                            <p>had worked with toddler environment for 2 years in Blue Blocks which inspired her to take up 3-6 years AMI training. Having completed her AMI training she has been working with Blue Blocks since 2019.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="card box-shadow thumn-desc">                      
+                        <figure class="card-img-top">
+                            <img class="" src="../public/resourses/images/about-us/staff-img-01.jpg" alt="Card image cap">
+                            <figcaption class="bg-green">Designation</figcaption>
+                        </figure>
+                        <div class="card-body">
+                            <h3 class="sm">Ms Praveena </h3>
+                            <p>is the Hindi Mentor at Blue Blocks since 2017. An enthusiastic worker, she shares a kinship with the children and takes great joy in seeing them learn.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="card box-shadow thumn-desc">                      
+                        <figure class="card-img-top">
+                            <img class="" src="../public/resourses/images/about-us/staff-img-01.jpg" alt="Card image cap">
+                            <figcaption class="bg-green">Designation</figcaption>
+                        </figure>
+                        <div class="card-body">
+                            <h3 class="sm">Ms Sheetal Lalani</h3>
+                            <p>an AMI primary trained adult, Sheetal was trained in house by Blue Blocks founder and first AMI 0-3 diploma holder in India, Mr. Pavan Goyal. She is currently a directress in the toddler environment catering to children between 1.5 to 3 years of age.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="card box-shadow thumn-desc">                      
+                        <figure class="card-img-top">
+                            <img class="" src="../public/resourses/images/about-us/staff-img-01.jpg" alt="Card image cap">
+                            <figcaption class="bg-green">Designation</figcaption>
+                        </figure>
+                        <div class="card-body">
+                            <h3 class="sm">Ms Mridula  </h3>
+                            <p>is a journalist by profession and after 11 years of reporting from the sidelines, she decided to take an active part in changing the system. She is an AMI Montessori diploma holder for the 6-12 age group and is currently working as the Elementary coordinator for Blue Blocks hoping to spread the right kind for education to as many children as possible. She has been with Blue Blocks since 2017.</p>
+                        </div>
+                    </div>
+                </div>
+                <diV>
+            </div>
+        </div>
+    </div>  
+
+<!-- Starts : Parents Testimonials -->
+    <div class="section animated " data-animation="fadeInUp" data-animation-delay="300">
+        <div class="container">
+            <h2 class="main-tl large blue red animated" data-animation="fadeInUp" data-animation-delay="300">CAreer with Blue Blocks</h2>
+            <div class="row list-txt animated" data-animation="fadeInUp" data-animation-delay="400">
+                <div class="col-sm-6 animated" data-animation="fadeInUp" data-animation-delay="500">
+                    <p>Montessori trained educators have the unique opportunity to change the education system for the better. They can reform the thinking and perception of what should be the ideal schooling environment.</p>
+                    <p>Montessori Directress: Looking for AMI Certified individuals to be directresses of the Self-Interpretive Environments (3-6 year Primary environment).</p>
+                    <p>Elementary Directress: Looking for AMI Certified individuals to work with the 6-12 year old children in the elementary environment.</p>
+                    <p>Assistants: Graduates in any field with good command over language and keen interest in working with children.</p>
+                </div>
+                <div class="col-sm-6 animated" data-animation="fadeInUp" data-animation-delay="600">
+                    <h4>Eligibility Criteria</h4>
+                    <ul>
+                        <li>Motivated to work with Children
+                            <ul>
+                                <li>Open to learning.</li>
+                            </ul>
+                        </li>
+                        <li>Understanding of the psychology of the 3-12 year olds. 
+                            <ul>
+                                <li>Pleasant personality and soft demeanour</li>
+                                <li>Good logical and analytical skills</li>
+                                <li>Good communication skills</li>
+                            </ul>
+                        </li>
+                        <li>Basic computer skills
+                          <ul>
+                              <li>Age 20 years and above</li>
+                              <li>Graduate in any stream</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-sm-12 d-flex justify-content-center">
+                    <a href="#" class="btn btn-anim btn-lg btn-primary">Apply Now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- Ends : Parents Testimonials -->
+  
+  <!-- Starts : FAQs -->
+      <div class="section bg-light animated has-shadow shadow-tp" data-animation="fadeInUp" data-animation-delay="300">
+        <div class="container">
+            <h2 class="main-tl blue green animated" data-animation="fadeInUp" data-animation-delay="400">Most Asked question</h2>
+            <div class="hrzTabs r-tabs">
+                <ul class="responsive-tabs d-sm-flex justify-content-between animated" data-animation="fadeInUp" data-animation-delay="500">
+                    <li class="box-cont green-light"><a href="#tab-1">Admission Process</a></li>
+                    <li class="box-cont yellow"><a href="#tab-2">Fee Structure</a></li>
+                    <li class="box-cont blue"><a href="#tab-3">School Facilities</a></li>
+                    <li class="box-cont pink"><a href="#tab-4">School Recognition</a></li>
+                </ul>
+                <div class="resposive-tab-container">
+                    <div id="tab-1">
+                        <div class="row">
+                            <div class="col-sm-6 animated" data-animation="fadeInUp" data-animation-delay="600">
+                                <div class="accordion-box sm">
+                                    <h3 class="tl">Do you take admissions all year round?</h3>
+                                    <div class="accordion">
+                                        <p>Our admissions are bi-monthly.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 animated" data-animation="fadeInUp" data-animation-delay="700">
+                                <div class="accordion-box sm">
+                                    <h3 class="tl">Do you take admissions all year round?</h3>
+                                    <div class="accordion">
+                                        <p>Our admissions are bi-monthly.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 animated" data-animation="fadeInUp" data-animation-delay="700">
+                                <div class="accordion-box sm">
+                                    <h3 class="tl">Is the fee prorated?</h3>
+                                    <div class="accordion">
+                                        <p>Our admissions are bi-monthly.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 animated" data-animation="fadeInUp" data-animation-delay="700">
+                                <div class="accordion-box sm">
+                                    <h3 class="tl">Is the fee prorated?</h3>
+                                    <div class="accordion">
+                                        <p>Our admissions are bi-monthly.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 animated" data-animation="fadeInUp" data-animation-delay="700">
+                                <div class="accordion-box sm">
+                                    <h3 class="tl">What is the age at admission?</h3>
+                                    <div class="accordion">
+                                        <p>For Toddler Environment – 1 year For Self Interpretive – 2.2 to 2.9 years.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 animated" data-animation="fadeInUp" data-animation-delay="700">
+                                <div class="accordion-box sm">
+                                    <h3 class="tl">What is the age at admission?</h3>
+                                    <div class="accordion">
+                                        <p>For Toddler Environment – 1 year For Self Interpretive – 2.2 to 2.9 years.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="tab-2">
+                        <div class="row row-cols-sm-2">
+                            <div class="col-sm-6 animated" data-animation="fadeInUp" data-animation-delay="600">
+                                <div class="accordion-box sm">
+                                    <h3 class="tl">Do Montessori teach or do is it all about self learning?</h3>
+                                    <div class="accordion">
+                                        <p>Montessori teachers act as guides to a child’s independence. The teacher gives each child a presentation of a concept using specifically designed equipment. The child is then free to explore the material and learn through self-correction. The teacher’s observation of the child helps to plan for future lessons</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 animated" data-animation="fadeInUp" data-animation-delay="700">
+                                <div class="accordion-box sm">
+                                    <h3 class="tl">Do Montessori teach or do is it all about self learning?</h3>
+                                    <div class="accordion">
+                                        <p>Montessori teachers act as guides to a child’s independence. The teacher gives each child a presentation of a concept using specifically designed equipment. The child is then free to explore the material and learn through self-correction. The teacher’s observation of the child helps to plan for future lessons</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="tab-3">
+                        <div class="row row-cols-sm-2">
+                            <div class="col-sm-6 animated" data-animation="fadeInUp" data-animation-delay="600">
+                                <div class="accordion-box sm">
+                                    <h3 class="tl">Do Montessori teach or do is it all about self learning?</h3>
+                                    <div class="accordion">
+                                        <p>Montessori teachers act as guides to a child’s independence. The teacher gives each child a presentation of a concept using specifically designed equipment. The child is then free to explore the material and learn through self-correction. The teacher’s observation of the child helps to plan for future lessons</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 animated" data-animation="fadeInUp" data-animation-delay="700">
+                                <div class="accordion-box sm">
+                                    <h3 class="tl">Do Montessori teach or do is it all about self learning?</h3>
+                                    <div class="accordion">
+                                        <p>Montessori teachers act as guides to a child’s independence. The teacher gives each child a presentation of a concept using specifically designed equipment. The child is then free to explore the material and learn through self-correction. The teacher’s observation of the child helps to plan for future lessons</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="tab-4">
+                        <div class="row row-cols-sm-2">
+                            <div class="col-sm-6 animated" data-animation="fadeInUp" data-animation-delay="600">
+                                <div class="accordion-box sm">
+                                    <h3 class="tl">Do Montessori teach or do is it all about self learning?</h3>
+                                    <div class="accordion">
+                                        <p>Montessori teachers act as guides to a child’s independence. The teacher gives each child a presentation of a concept using specifically designed equipment. The child is then free to explore the material and learn through self-correction. The teacher’s observation of the child helps to plan for future lessons</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 animated" data-animation="fadeInUp" data-animation-delay="700">
+                                <div class="accordion-box sm">
+                                    <h3 class="tl">Do Montessori teach or do is it all about self learning?</h3>
+                                    <div class="accordion">
+                                        <p>Montessori teachers act as guides to a child’s independence. The teacher gives each child a presentation of a concept using specifically designed equipment. The child is then free to explore the material and learn through self-correction. The teacher’s observation of the child helps to plan for future lessons</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <p class="hglt-txt">Prospective parents log on to the website or call us to register for an Admission Workshop held every Saturday. All admissions will be processed in this workshop.</p>
+        </div>
+    </div>
+<!-- Ends : FAQs -->
+
+<!-- Starts : KNOW MORE -->
+<div class="section bg-light animated section-0" data-animation="fadeInUp" data-animation-delay="300">
+    <div class="abt-rt-sec-top d-sm-flex justify-content-center">
+        <div class="abt-rt-sec">
+            <div class="d-sm-flex align-items-center">
+                <div class="logo-content">
+                    <img src="../public/resourses/images/common/drone-research-logo.png">
+                </div>
+                <div class="">
+                    <a href="#" class="btn btn-anim btn-white"><span>KNOW MORE</span></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Ends : KNOW MORE -->
+</main>
+
+<!-- Starts : Footer -->
+<!--#include virtual="../public/includes/footer.inc"-->
+<!-- End : Footer -->
+</body>
+</html>
