@@ -7,21 +7,24 @@
 <meta name="author" content="">
 <link rel="icon" href="../public/resourses/images/favicons/favicon.ico">
 <title>Blue Blocks :: Montessori</title>
+<!-- Starts : Header JS CSS -->
 <link href="../public/resourses/css/bootstrap.min.css" rel="stylesheet">
 <link href="../public/resourses/css/plugins.css" rel="stylesheet">
 <link href="../public/resourses/css/style.css" rel="stylesheet">
 <link href="../public/resourses/css/media.css" rel="stylesheet">
 
 <script type="text/javascript" src="../public/resourses/js/modernizr-2.6.2.min.js" ></script>
+<!-- End : Header JS CSS -->
 </head>
 <body>
 <!-- Starts : Header -->
+
 <header>
     <div class="navbar box-shadow animated" data-animation="fadeInUp" data-animation-delay="300">
         <div class="container d-flex justify-content-between">
-            <a href="#" class="navbar-brand d-flex align-items-center"><img src="../public/resourses/images/logo.png" alt=""></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span> </button>
-            <div class="header-rt d-flex justify-content-between">
+            <a href="index.html" class="navbar-brand d-flex align-items-center order-1"><img src="../public/resourses/images/logo.png" alt=""></a>
+            <button class="navbar-toggler order-3 d-block d-sm-none" type="button"><span class="navbar-toggler-icon"></span> </button>
+            <div class="header-rt d-flex justify-content-sm-between justify-content-end order-2">
                 <div class="rt-sec">
                     <i class="fc-clock"></i>
                     <div class="txt-Cont">
@@ -49,7 +52,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="rt-sec">
+                <div class="rt-sec justify-content-end">
                     <div class="txt-Cont">
                         <b>Follow US</b>
                         <div class="txt">
@@ -68,16 +71,27 @@
         </div>
         <a href="#" class="btn btn-anim btn-admission"><span><b>Admissions OPEN</b> <span>Get in<br> TOUCH</span></span></a>
     </div>
-    <div class="bg-grey animated" data-animation="fadeInUp" data-animation-delay="300" id="navbarHeader">
+    <div class="bg-grey animated d-none d-sm-block" data-animation="fadeInUp" data-animation-delay="300" id="navbarHeader">
         <div class="container">
             <div class="nav-scroller">
-                <nav class="nav d-flex justify-content-center">
-                    <a href="#" class="nav-link nav-home active">Home</a>
-                    <a href="#" class="nav-link nav-about">About</a>
-                    <a href="#" class="nav-link nav-program">Program</a>
-                    <a href="#" class="nav-link nav-innovation">Innovation</a>
-                    <a href="#" class="nav-link nav-blog">Blog</a>
-                    <a href="contact-us.html" class="nav-link nav-clog">Contact</a>
+                <nav class="nav d-flex justify-content-center navigation" id ="main-menu">
+                    <ul>
+                        <li><a href="index.html" class="nav-link nav-home active">Home</a></li>
+                        <li><a href="about-us.html" class="nav-link nav-about">About</a></li>
+                        <li class="has-submenu">
+                            <a href="#" class="nav-link nav-program">Program</a>
+                            <ul class="dropdown-menu nav_menu sub-menu" >
+								<li><a href="programs.html"><span>Toddler</span></a></li>
+                                <li><a href="#"><span>Self</span></a></li>
+                                <li><a href="#"><span>Elementary</span></a></li>
+                                <li><a href="#"><span>High</span></a></li>
+                                <li><a href="#"><span>Montessori</span></a></li>
+							</ul>
+                        </li>
+                        <li><a href="#" class="nav-link nav-innovation">Innovation</a></li>
+                        <li><a href="#" class="nav-link nav-blog">Blog</a></li>
+                        <li><a href="contact-us.html" class="nav-link nav-clog">Contact</a></li>
+                    </ul>
                 </nav>
             </div>
         </div>
@@ -89,10 +103,10 @@
     <div class="section bg-light animated sec-info-txt" data-animation="fadeInUp" data-animation-delay="300">
         <div class="container">
             <h1 class="main-tl large blue animated" data-animation="fadeInUp" data-animation-delay="300">MONTESSORI System</h1>
-            <div class="tl-sec d-flex justify-content-start">
-                <div class="tl-bg bg-green animated" data-animation="fadeInUp" data-animation-delay="400">WHO WAS MARIA MONTESSORI?</div>
+            <div class="tl-sec d-sm-flex justify-content-start">
+                <div class="tl-bg bg-green-light animated" data-animation="fadeInUp" data-animation-delay="400">WHO WAS MARIA MONTESSORI?</div>
             </div>
-            <div class="info-txt d-flex justify-content-start">
+            <div class="info-txt d-sm-flex justify-content-start">
                 <figure class=" animated" data-animation="fadeInUp" data-animation-delay="500"><img src="../public/resourses/images/montessori/img-01.jpg" alt=""></figure>
                 <div class="text-cont animated" data-animation="fadeInUp" data-animation-delay="600">
                     <p>Maria Montessori was a visionary who disabused the traditional methods of education for being too constrictive and non child friendly. In her lifelong work with children first as a pediatric doctor and then as researcher and educator Maria Montessori stumbled up on the secret to not just retaining children’s attention but to successfully divert it for productive work.</p>
@@ -102,45 +116,47 @@
         </div>
     </div>
 
-    <div class="section bg-blue animated" data-animation="fadeInUp" data-animation-delay="300">
+    <div class="section bg-blue-light animated" data-animation="fadeInUp" data-animation-delay="300">
         <div class="container">
-            <h2 class="main-tl blue animated" data-animation="fadeInUp" data-animation-delay="300">HOW DOES MONTESSORI WORK</h2>
+            <h2 class="main-tl blue green animated" data-animation="fadeInUp" data-animation-delay="300">HOW DOES MONTESSORI WORK</h2>
             <div class="row justify-content-center">
-                <div class="col-7 animated" data-animation="fadeInUp" data-animation-delay="400">
-                    <p>The Montessori philosophy believes that every child is born with a creative mind and a drive to learn. These qualities can be best developed in a free environment. A constructive and proactive methodology, Montessori gives your child the freedom to develop varied interests and the competence needed to get her ready for life.</p>
+                <div class="col-sm-7 animated" data-animation="fadeInUp" data-animation-delay="400">
+                    <div class="wrap box-cont p-t-0">
+                        <p>The Montessori philosophy believes that every child is born with a creative mind and a drive to learn. These qualities can be best developed in a free environment. A constructive and proactive methodology, Montessori gives your child the freedom to develop varied interests and the competence needed to get her ready for life.</p>
+                    </div>
                 </div>
-                <div class="col-6 animated" data-animation="fadeInUp" data-animation-delay="500">
-                    <div class="wrap">
+                <div class="col-sm-6 animated" data-animation="fadeInUp" data-animation-delay="500">
+                    <div class="wrap box-cont pink">
                         <h4>Education Through Senses</h4>
                         <p>Whenever a young child picks up an object, he would bang it on the floor, try to taste it or bend it. This is his way of understanding the textures, girth and use of the object in hand. Montessori promotes this natural inquisitiveness and self learning capabilities of a child. When he uses his hands, and senses he can better understand various concepts like physical properties and usage.</p>
                     </div>
                 </div>
-                <div class="col-6 animated" data-animation="fadeInUp" data-animation-delay="600">
-                    <div class="wrap">
+                <div class="col-sm-6 animated" data-animation="fadeInUp" data-animation-delay="600">
+                    <div class="wrap box-cont green">
                         <h4>Individual Rhythm</h4>
                         <p>All children have their own individual pace to work and binding them in a time table may not allow them the time to grasp a concept. In Montessori, the children are not bound by time to learn and hence work at it until they have mastered the concept.</p>
                     </div>
                 </div>
-                <div class="col-6 animated" data-animation="fadeInUp" data-animation-delay="700">
-                    <div class="wrap">
+                <div class="col-sm-6 animated" data-animation="fadeInUp" data-animation-delay="700">
+                    <div class="wrap box-cont blue">
                         <h4>Mixed Age Groups</h4>
                         <p>An integral part of Montessori education is based on learning in a community environment. By exposing children between three and to six years of age to the same environment, older children learn to be more responsible while younger children will have role models to emulate. This will help them learn to work together, co-operate and co-exist like they have to when they go out into the world.</p>
                     </div>
                 </div>
-                <div class="col-6 animated" data-animation="fadeInUp" data-animation-delay="800">
-                    <div class="wrap">
+                <div class="col-sm-6 animated" data-animation="fadeInUp" data-animation-delay="800">
+                    <div class="wrap box-cont yellow-light">
                         <h4>Custom designed equipment</h4>
                         <p>Montessori uses materials that are exclusively designed for the children working in their environment. These are scientifically designed to not just fit into tiny hands but also help in development of their sensory skills like sand paper letters and engraved numbers where they touch, trace and learn.</p>
                     </div>
                 </div>
-                <div class="col-6 animated" data-animation="fadeInUp" data-animation-delay="900">
-                    <div class="wrap">
+                <div class="col-sm-6 animated" data-animation="fadeInUp" data-animation-delay="900">
+                    <div class="wrap box-cont yellow">
                         <h4>Freedom</h4>
                         <p>Montessori learning gives a child the freedom to choose any activity he wishes to pursue in a day. He can pick and choose the work of the day, repeat an activity any number of times, move around the environment to communicate and interact with other children to observe any activity he may find interesting. The freedom is provided along with guidelines which allow the children to develop discipline and respect toward</p>
                     </div>
                 </div>
-                <div class="col-6 animated" data-animation="fadeInUp" data-animation-delay="1000">
-                    <div class="wrap">
+                <div class="col-sm-6 animated" data-animation="fadeInUp" data-animation-delay="1000">
+                    <div class="wrap box-cont green-light">
                         <h4>Add one more Point</h4>
                         <p>Montessori uses materials that are exclusively designed for the children working in their environment. These are scientifically designed to not just fit into tiny hands but also help in development of their sensory skills like sand paper letters and engraved numbers where they touch, trace and learn.</p>
                     </div>
@@ -150,33 +166,33 @@
     </div>  
 
 <!-- Starts : Parents Testimonials -->
-    <div class="section bg-white animated has-shadow" data-animation="fadeInUp" data-animation-delay="300">
+    <div class="section animated has-shadow" data-animation="fadeInUp" data-animation-delay="300">
         <div class="container">
-            <h2 class="main-tl blue animated" data-animation="fadeInUp" data-animation-delay="300">MONTESSORI FOR SUCCESS</h2>
-            <div class="testimonial-slide  animated" data-animation="fadeInUp" data-animation-delay="400">
-                <div class="slide">
-                    <ul class="d-flex justify-content-md-center">
+            <h2 class="main-tl large blue animated" data-animation="fadeInUp" data-animation-delay="300">MONTESSORI FOR SUCCESS</h2>
+            <div class="single-item-slide owl-theme-01 animated" data-animation="fadeInUp" data-animation-delay="400">
+                <div class="slide sm">
+                    <ul class="type-02 justify-content-md-center">
                         <li><b class="name">Larry Page and Sergey Brin</b></li>
                         <li><i class="name-role">Founders, Google</i></li>
                     </ul>
                     <p>“Both went to Montessori schools and credit the Montessori education of “being self motivated, questioning what’s going on in the world, doing things a bit differently,” for being responsible for their success to a large extent..”</p>
                 </div>
-                <div class="slide">
-                    <ul class="d-flex justify-content-md-center">
+                <div class="slide sm">
+                    <ul class="type-02 justify-content-md-center">
                         <li><b class="name">Larry Page and Sergey Brin</b></li>
                         <li><i class="name-role">Founders, Google</i></li>
                     </ul>
                     <p>“Both went to Montessori schools and credit the Montessori education of “being self motivated, questioning what’s going on in the world, doing things a bit differently,” for being responsible for their success to a large extent..”</p>
                 </div>
-                <div class="slide">
-                    <ul class="d-flex justify-content-md-center">
+                <div class="slide sm">
+                    <ul class="type-02 justify-content-md-center">
                         <li><b class="name">Larry Page and Sergey Brin</b></li>
                         <li><i class="name-role">Founders, Google</i></li>
                     </ul>
                     <p>“Both went to Montessori schools and credit the Montessori education of “being self motivated, questioning what’s going on in the world, doing things a bit differently,” for being responsible for their success to a large extent..”</p>
                 </div>
-                <div class="slide">
-                    <ul class="d-flex justify-content-md-center">
+                <div class="slide sm">
+                    <ul class="type-02 justify-content-md-center">
                         <li><b class="name">Larry Page and Sergey Brin</b></li>
                         <li><i class="name-role">Founders, Google</i></li>
                     </ul>
@@ -190,26 +206,92 @@
   <!-- Starts : FAQs -->
       <div class="section bg-light animated" data-animation="fadeInUp" data-animation-delay="300">
         <div class="container">
-            <h2 class="main-tl blue animated" data-animation="fadeInUp" data-animation-delay="400">Frequently Asked Questions</h2>
-            <div class="hrzTabs">
-                <ul class="responsive-tabs animated" data-animation="fadeInUp" data-animation-delay="500">
-                    <li><a href="#">About Montessorie</a></li>
-                    <li><a href="#">Social Development</a></li>
-                    <li><a href="#">All play no work</a></li>
-                    <li><a href="#">School students</a></li>
+            <h2 class="main-tl blue green animated" data-animation="fadeInUp" data-animation-delay="400">Frequently Asked Questions</h2>
+            <div class="hrzTabs r-tabs">
+                <ul class="responsive-tabs d-sm-flex justify-content-between animated" data-animation="fadeInUp" data-animation-delay="500">
+                    <li class="box-cont green-light"><a href="#tab-1">About Montessorie</a></li>
+                    <li class="box-cont yellow"><a href="#tab-2">Social Development</a></li>
+                    <li class="box-cont blue"><a href="#tab-3">All play no work</a></li>
+                    <li class="box-cont pink"><a href="#tab-4">School students</a></li>
                 </ul>
                 <div class="resposive-tab-container">
-                    <div class="row row-cols-sm-2">
-                        <div class="col animated" data-animation="fadeInUp" data-animation-delay="600">
-                            <div class="accordion-box">
-                                <h3>Do Montessori teach or do is it all about self learning?</h3>
-                                <p>Montessori teachers act as guides to a child’s independence. The teacher gives each child a presentation of a concept using specifically designed equipment. The child is then free to explore the material and learn through self-correction. The teacher’s observation of the child helps to plan for future lessons</p>
+                    <div id="tab-1">
+                        <div class="row">
+                            <div class="col-sm-6 animated" data-animation="fadeInUp" data-animation-delay="600">
+                                <div class="accordion-box">
+                                    <h3 class="tl">Do Montessori teach or do is it all about self learning?</h3>
+                                    <div class="accordion">
+                                        <p>Montessori teachers act as guides to a child’s independence. The teacher gives each child a presentation of a concept using specifically designed equipment. The child is then free to explore the material and learn through self-correction. The teacher’s observation of the child helps to plan for future lessons</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 animated" data-animation="fadeInUp" data-animation-delay="700">
+                                <div class="accordion-box">
+                                    <h3 class="tl">Is it true that Montessori is all play and no work?</h3>
+                                    <div class="accordion">
+                                        <p>Maria Montessori believed that play is the work of the child. Through curiosity, the child is able to explore their environment and work with desired materials at their own pace.</p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        <div class="col animated" data-animation="fadeInUp" data-animation-delay="700">
-                            <div class="accordion-box">
-                                <h3>Do Montessori teach or do is it all about self learning?</h3>
-                                <p>Montessori teachers act as guides to a child’s independence. The teacher gives each child a presentation of a concept using specifically designed equipment. The child is then free to explore the material and learn through self-correction. The teacher’s observation of the child helps to plan for future lessons</p>
+                    </div>
+                    <div id="tab-2">
+                        <div class="row">
+                            <div class="col-sm-6 animated" data-animation="fadeInUp" data-animation-delay="600">
+                                <div class="accordion-box">
+                                    <h3 class="tl">Do Montessori teach or do is it all about self learning?</h3>
+                                    <div class="accordion">
+                                        <p>Montessori teachers act as guides to a child’s independence. The teacher gives each child a presentation of a concept using specifically designed equipment. The child is then free to explore the material and learn through self-correction. The teacher’s observation of the child helps to plan for future lessons</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 animated" data-animation="fadeInUp" data-animation-delay="700">
+                                <div class="accordion-box">
+                                    <h3 class="tl">Do Montessori teach or do is it all about self learning?</h3>
+                                    <div class="accordion">
+                                        <p>Montessori teachers act as guides to a child’s independence. The teacher gives each child a presentation of a concept using specifically designed equipment. The child is then free to explore the material and learn through self-correction. The teacher’s observation of the child helps to plan for future lessons</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="tab-3">
+                        <div class="row">
+                            <div class="col-sm-6 animated" data-animation="fadeInUp" data-animation-delay="600">
+                                <div class="accordion-box">
+                                    <h3 class="tl">Do Montessori teach or do is it all about self learning?</h3>
+                                    <div class="accordion">
+                                        <p>Montessori teachers act as guides to a child’s independence. The teacher gives each child a presentation of a concept using specifically designed equipment. The child is then free to explore the material and learn through self-correction. The teacher’s observation of the child helps to plan for future lessons</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 animated" data-animation="fadeInUp" data-animation-delay="700">
+                                <div class="accordion-box">
+                                    <h3 class="tl">Do Montessori teach or do is it all about self learning?</h3>
+                                    <div class="accordion">
+                                        <p>Montessori teachers act as guides to a child’s independence. The teacher gives each child a presentation of a concept using specifically designed equipment. The child is then free to explore the material and learn through self-correction. The teacher’s observation of the child helps to plan for future lessons</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="tab-4">
+                        <div class="row">
+                            <div class="col-sm-6 animated" data-animation="fadeInUp" data-animation-delay="600">
+                                <div class="accordion-box">
+                                    <h3 class="tl">Do Montessori teach or do is it all about self learning?</h3>
+                                    <div class="accordion">
+                                        <p>Montessori teachers act as guides to a child’s independence. The teacher gives each child a presentation of a concept using specifically designed equipment. The child is then free to explore the material and learn through self-correction. The teacher’s observation of the child helps to plan for future lessons</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 animated" data-animation="fadeInUp" data-animation-delay="700">
+                                <div class="accordion-box">
+                                    <h3 class="tl">Do Montessori teach or do is it all about self learning?</h3>
+                                    <div class="accordion">
+                                        <p>Montessori teachers act as guides to a child’s independence. The teacher gives each child a presentation of a concept using specifically designed equipment. The child is then free to explore the material and learn through self-correction. The teacher’s observation of the child helps to plan for future lessons</p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -221,9 +303,9 @@
 
 <!-- Starts : KNOW MORE -->
 <div class="section bg-light animated section-0" data-animation="fadeInUp" data-animation-delay="300">
-    <div class="abt-rt-sec-top d-flex justify-content-center">
+    <div class="abt-rt-sec-top d-sm-flex justify-content-center">
         <div class="abt-rt-sec">
-            <div class="d-flex align-items-center">
+            <div class="d-sm-flex align-items-center">
                 <div class="logo-content">
                     <img src="../public/resourses/images/common/drone-research-logo.png">
                 </div>
@@ -237,6 +319,7 @@
 <!-- Ends : KNOW MORE -->
 </main>
 
+<!-- Starts : Footer -->
 <footer class="text-muted">
     <div class="top-sec bg-yellow animated" data-animation="fadeInUp" data-animation-delay="300">
         <div class="container">
@@ -261,7 +344,7 @@
                             <li><a href="#">Self</a></li>
                             <li><a href="#">Elementary</a></li>
                             <li><a href="#">High</a></li>
-                            <li><a href="#">Montessori</a></li>
+                            <li><a href="montessori.html">Montessori</a></li>
                         </ul>
                     </div>
                     <div class="col-sm-5 animated" data-animation="fadeInUp" data-animation-delay="600">
@@ -275,7 +358,7 @@
                 </div>
             </div>
             <div class="col-sm-3 animated" data-animation="fadeInUp" data-animation-delay="300">
-                <ul class="social-links d-flex justify-content-end animated" data-animation="fadeInUp" data-animation-delay="700">
+                <ul class="social-links d-flex justify-content-center justify-content-sm-end animated" data-animation="fadeInUp" data-animation-delay="700">
                     <li><a href="#"><i class="fa fa-facebook"></i></a></li>
                     <li><a href="#"><i class="fa fa-instagram"></i></a></li>
                     <li><a href="#"><i class="fa fa-youtube"></i></a></li>
@@ -284,13 +367,13 @@
                     <li><a href="#"><i class="fa fa-whatsapp"></i></a></li>
                 </ul>
                 <ul class="action-links animated" data-animation="fadeInUp" data-animation-delay="800">
-                    <li class="d-flex justify-content-end"><b>m:</b> 
+                    <li class="d-flex  justify-content-center justify-content-sm-end"><b>m:</b> 
                         <ul>
                             <li>+91 9000955050</li>
                             <li>+91 9000955053</li>
                         </ul>
                     </li>
-                    <li class="d-flex justify-content-end"><b>e:</b> 
+                    <li class="d-flex justify-content-center justify-content-sm-end"><b>e:</b> 
                         <ul>
                             <li>info@blueblocks.in</li>
                         </ul>
@@ -315,5 +398,6 @@
 <script src="../public/resourses/js/masonry.pkgd.min.js"></script>
 <script src="../public/resourses/js/plugins.js"></script>
 <script src="../public/resourses/js/main.js"></script>
+<!-- End : Footer -->
 </body>
 </html>

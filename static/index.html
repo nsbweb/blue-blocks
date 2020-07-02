@@ -7,20 +7,23 @@
 <meta name="author" content="">
 <link rel="icon" href="../public/resourses/images/favicons/favicon.ico">
 <title>Blue Blocks :: Home</title>
+<!-- Starts : Header JS CSS -->
 <link href="../public/resourses/css/bootstrap.min.css" rel="stylesheet">
 <link href="../public/resourses/css/plugins.css" rel="stylesheet">
 <link href="../public/resourses/css/style.css" rel="stylesheet">
 <link href="../public/resourses/css/media.css" rel="stylesheet">
 
 <script type="text/javascript" src="../public/resourses/js/modernizr-2.6.2.min.js" ></script>
+<!-- End : Header JS CSS -->
 </head>
 <body>
 <!-- Starts : Header -->
+
 <header>
     <div class="navbar box-shadow animated" data-animation="fadeInUp" data-animation-delay="300">
         <div class="container d-flex justify-content-between">
-            <a href="#" class="navbar-brand d-flex align-items-center order-1"><img src="../public/resourses/images/logo.png" alt=""></a>
-            <button class="navbar-toggler  order-3" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span> </button>
+            <a href="index.html" class="navbar-brand d-flex align-items-center order-1"><img src="../public/resourses/images/logo.png" alt=""></a>
+            <button class="navbar-toggler order-3 d-block d-sm-none" type="button"><span class="navbar-toggler-icon"></span> </button>
             <div class="header-rt d-flex justify-content-sm-between justify-content-end order-2">
                 <div class="rt-sec">
                     <i class="fc-clock"></i>
@@ -68,16 +71,27 @@
         </div>
         <a href="#" class="btn btn-anim btn-admission"><span><b>Admissions OPEN</b> <span>Get in<br> TOUCH</span></span></a>
     </div>
-    <div class="bg-grey animated" data-animation="fadeInUp" data-animation-delay="300" id="navbarHeader">
+    <div class="bg-grey animated d-none d-sm-block" data-animation="fadeInUp" data-animation-delay="300" id="navbarHeader">
         <div class="container">
             <div class="nav-scroller">
-                <nav class="nav d-flex justify-content-center">
-                    <a href="#" class="nav-link nav-home active">Home</a>
-                    <a href="#" class="nav-link nav-about">About</a>
-                    <a href="#" class="nav-link nav-program">Program</a>
-                    <a href="#" class="nav-link nav-innovation">Innovation</a>
-                    <a href="#" class="nav-link nav-blog">Blog</a>
-                    <a href="contact-us.html" class="nav-link nav-clog">Contact</a>
+                <nav class="nav d-flex justify-content-center navigation" id ="main-menu">
+                    <ul>
+                        <li><a href="index.html" class="nav-link nav-home active">Home</a></li>
+                        <li><a href="about-us.html" class="nav-link nav-about">About</a></li>
+                        <li class="has-submenu">
+                            <a href="#" class="nav-link nav-program">Program</a>
+                            <ul class="dropdown-menu nav_menu sub-menu" >
+								<li><a href="programs.html"><span>Toddler</span></a></li>
+                                <li><a href="#"><span>Self</span></a></li>
+                                <li><a href="#"><span>Elementary</span></a></li>
+                                <li><a href="#"><span>High</span></a></li>
+                                <li><a href="#"><span>Montessori</span></a></li>
+							</ul>
+                        </li>
+                        <li><a href="#" class="nav-link nav-innovation">Innovation</a></li>
+                        <li><a href="#" class="nav-link nav-blog">Blog</a></li>
+                        <li><a href="contact-us.html" class="nav-link nav-clog">Contact</a></li>
+                    </ul>
                 </nav>
             </div>
         </div>
@@ -94,7 +108,7 @@
             <img src="../public/resourses/images/home/banner-img-01.jpg" alt="">
         </div>
         <div class="banner-txt align-self-sm-center order-sm-1">
-            <p><b>Empowering students <span>from small age</span></b> <b class="spl-txt">towards Vision</b></p>
+            <p><b>Empowering children <span>to be</span></b> <b class="spl-txt">future relevant.</b></p>
             <a href="#" class="btn btn-anim btn-primary"><span>KNOW MORE</span></a>
             <div class="floating-obj bag-obj"><img src="../public/resourses/images/common/icons/bag-img.png" alt=""></div>
         </div>
@@ -112,8 +126,9 @@
                         <h2 class="main-tl blue">BLUE BLOCKS</h2>
                         <h4>SELF LEARNING PRE SCHOOL</h4>
                     </div>
-                    <p>We believe in providing children a new world of experience where a child is awakened to the possibilities of life and his own potential.</p>
-                    <a href="#" class="btn btn-link">KNOW MORE</a>
+                    <p>Blue Blocks is a Montessori and Cambridge Affiliated School for ages 1 to 15. Our primary programme follows the authentic Montessori pedagogy and curriculum. Our Elementary school is the perfect amalgamation of the Montessori and Cambridge curricula.</p>
+                    <p>Our High School which will be operational from 2022 will offer Cambridge Curriculum with Montessori Erd Kinder adolescent programme.</p>
+                    <a href="about-us.html" class="btn btn-link">KNOW MORE</a>
                 </div>
             </div>
             <div class="col-sm-6">
@@ -133,7 +148,7 @@
                     <div class="abt-rt-sec">
                         <h4>Awarded the Best Pre-school in Hyderabad by <b>TIMES OF INDIA for the third successive year.</b></h4>
                         <div class="row">
-                            <div class="col-sm-6">
+                            <div class="col-6">
                                 <div class="thumbnail-sec">
                                     <figure class="img-sec">
                                         <img src="../public/resourses/images/awards/awards-01.jpg" alt="">
@@ -141,7 +156,7 @@
                                     </figure>
                                 </div>
                             </div>
-                            <div class="col-sm-6">
+                            <div class="col-6">
                                 <div class="thumbnail-sec">
                                     <figure class="img-sec">
                                         <img src="../public/resourses/images/awards/awards-02.jpg" alt="">
@@ -158,10 +173,10 @@
   
 
     <!-- Starts : Parents Testimonials -->
-    <div class="section bg-white animated has-shadow" data-animation="fadeInUp" data-animation-delay="300">
+    <div class="section animated has-shadow" data-animation="fadeInUp" data-animation-delay="300">
         <div class="container">
             <h2 class="main-tl blue">Parents Testimonials</h2>
-            <div class="testimonial-slide">
+            <div class="single-item-slide owl-theme-01">
                 <div class="slide">
                     <p>“Normcore proident sed selvage. Post-ironic ugh master cleanse etsy you probably haven’t heard of them mollit park vinyl selfies. Normcore proident sed selvage.  Post-ironic ugh master cleanse etsy you probably haven’t heard of them mollit park vinyl selfies.”</p>
                     <ul class="d-flex justify-content-md-center">
@@ -203,10 +218,10 @@
   <!-- Starts : Our School -->
       <div class="section bg-light blue animated" data-animation="fadeInUp" data-animation-delay="300">
           <div class="container">
-              <h2 class="main-tl blue animated" data-animation="fadeInUp" data-animation-delay="400">Our School</h2>
+              <h2 class="main-tl blue yellow animated" data-animation="fadeInUp" data-animation-delay="400">Our School</h2>
               <h4 class="sub-tl align-center animated" data-animation="fadeInUp" data-animation-delay="500">The best foundation for your child’s formative years</h4>
               <div class="row">
-                  <div class="col-sm-3 animated" data-animation="fadeInUp" data-animation-delay="600">
+                  <div class="col-4 animated" data-animation="fadeInUp" data-animation-delay="600">
                         <div class="card trans-box">                      
                             <figure class="card-img-top">
                                 <img class="" src="../public/resourses/images/common/icons/fc-team.png" alt="Card image cap">
@@ -214,7 +229,7 @@
                             <div class="card-body">
                                 <h3>Our Team</h3>
                                 <div class="card-text">
-                                    <p>“Normcore proident sed selvage. Post-ironic ugh master cleanse etsy you probably haven’t heard of them mollit park vinyl selfies.</p>
+                                    <p>We have the largest team of Association Montessori International (AMI), Netherlands certified teaching guides. Every adult in the school is either a fully qualified teacher or a trained teacher’s assistant.</p>
                                 </div>
                                 <div class="d-flex justify-content-center">
                                     <div class="btn-group">
@@ -224,7 +239,7 @@
                             </div>
                         </div>
                   </div>
-                  <div class="col-sm-3 animated" data-animation="fadeInUp" data-animation-delay="700">
+                  <div class="col-4 animated" data-animation="fadeInUp" data-animation-delay="700">
                         <div class="card trans-box">                      
                             <figure class="card-img-top">
                                 <img class="" src="../public/resourses/images/common/icons/fc-kid.png" alt="Card image cap">
@@ -232,7 +247,7 @@
                             <div class="card-body">
                                 <h3>Kids Enrollment</h3>
                                 <div class="card-text">
-                                    <p>“Normcore proident sed selvage. Post-ironic ugh master cleanse etsy you probably haven’t heard of them mollit park vinyl selfies.</p>
+                                    <p>We taken admissions all year long through our weekly admission workshops.</p>
                                 </div>
                                 <div class="d-flex justify-content-center">
                                     <div class="btn-group">
@@ -242,7 +257,7 @@
                             </div>
                         </div>
                   </div>
-                  <div class="col-sm-3 animated" data-animation="fadeInUp" data-animation-delay="800">
+                  <!-- <div class="col-3 animated" data-animation="fadeInUp" data-animation-delay="800">
                       <div class="card trans-box">                      
                             <figure class="card-img-top">
                                 <img class="" src="../public/resourses/images/common/icons/fc-user.png" alt="Card image cap">
@@ -259,8 +274,8 @@
                                 </div>
                             </div>
                       </div>
-                  </div>
-                  <div class="col-sm-3 animated" data-animation="fadeInUp" data-animation-delay="900">
+                  </div> -->
+                  <div class="col-4 animated" data-animation="fadeInUp" data-animation-delay="900">
                         <div class="card trans-box">                      
                             <figure class="card-img-top">
                                 <img class="" src="../public/resourses/images/common/icons/fc-amm.png" alt="Card image cap">
@@ -268,7 +283,7 @@
                             <div class="card-body">
                                 <h3>Best Aminities</h3>
                                 <div class="card-text">
-                                    <p>“Normcore proident sed selvage. Post-ironic ugh master cleanse etsy you probably haven’t heard of them mollit park vinyl selfies.</p>
+                                    <p>Running out of two campuses, the school offers the best child friendly infrastructure, scientifically designed material and secure surroundings.Click here for a virtual tour of our campuses.</p>
                                 </div>
                                 <div class="d-flex justify-content-center">
                                     <div class="btn-group">
@@ -281,86 +296,88 @@
               </div>
           </div>
       </div>
-  <!-- Ends : Blue Blocks Gallery -->
+  <!-- Ends : Our School -->
   
 
   <!-- Starts : Blue Blocks Gallery -->
       <div class="section bg-light animated" data-animation="fadeInUp" data-animation-delay="300">
         <div class="container">
-            <h2 class="main-tl blue animated" data-animation="fadeInUp" data-animation-delay="400">Blue Blocks Gallery</h2>
+            <h2 class="main-tl blue yellow animated" data-animation="fadeInUp" data-animation-delay="400">Blue Blocks Gallery</h2>
             <div class="grid row row-0">
-                <div class="grid-item col-sm-3 animated" data-animation="fadeInUp" data-animation-delay="500"><a href="#"><img src="../public/resourses/images/gallery/gallery-01.jpg" alt=""></a></div>
-                <div class="grid-item col-sm-3 animated" data-animation="fadeInUp" data-animation-delay="600"><a href="#"><img src="../public/resourses/images/gallery/gallery-03.jpg" alt=""></a></div>
-                <div class="grid-item col-sm-3 animated" data-animation="fadeInUp" data-animation-delay="700"><a href="#"><img src="../public/resourses/images/gallery/gallery-05.jpg" alt=""></a></div>
-                <div class="grid-item col-sm-3 animated" data-animation="fadeInUp" data-animation-delay="800"><a href="#"><img src="../public/resourses/images/gallery/gallery-06.jpg" alt=""></a></div>
-                <div class="grid-item col-sm-3 animated" data-animation="fadeInUp" data-animation-delay="900"><a href="#"><img src="../public/resourses/images/gallery/gallery-02.jpg" alt=""></a></div>
-                <div class="grid-item col-sm-3 animated" data-animation="fadeInUp" data-animation-delay="1000"><a href="#"><img src="../public/resourses/images/gallery/gallery-07.jpg" alt=""></a></div>
-                <div class="grid-item col-sm-3 animated" data-animation="fadeInUp" data-animation-delay="1100"><a href="#"><img src="../public/resourses/images/gallery/gallery-04.jpg" alt=""></a></div>
+                <div class="grid-item col-sm-3 col-4 animated" data-animation="fadeInUp" data-animation-delay="500"><a href="#"><img src="../public/resourses/images/gallery/gallery-01.jpg" alt=""></a></div>
+                <div class="grid-item col-sm-3 col-4 animated" data-animation="fadeInUp" data-animation-delay="600"><a href="#"><img src="../public/resourses/images/gallery/gallery-03.jpg" alt=""></a></div>
+                <div class="grid-item col-sm-3 col-4 animated" data-animation="fadeInUp" data-animation-delay="700"><a href="#"><img src="../public/resourses/images/gallery/gallery-05.jpg" alt=""></a></div>
+                <div class="grid-item col-sm-3 col-4 animated" data-animation="fadeInUp" data-animation-delay="800"><a href="#"><img src="../public/resourses/images/gallery/gallery-06.jpg" alt=""></a></div>
+                <div class="grid-item col-sm-3 col-4 animated" data-animation="fadeInUp" data-animation-delay="900"><a href="#"><img src="../public/resourses/images/gallery/gallery-02.jpg" alt=""></a></div>
+                <div class="grid-item col-sm-3 col-4 animated" data-animation="fadeInUp" data-animation-delay="1000"><a href="#"><img src="../public/resourses/images/gallery/gallery-07.jpg" alt=""></a></div>
+                <div class="grid-item col-sm-3 col-4 animated" data-animation="fadeInUp" data-animation-delay="1100"><a href="#"><img src="../public/resourses/images/gallery/gallery-04.jpg" alt=""></a></div>
               </div>
         </div>
     </div>
 <!-- Ends : Blue Blocks Gallery -->
 
 <!-- Starts : School NEWS --> 
-    <div class="section bg-blue animated" data-animation="fadeInUp" data-animation-delay="300">
+    <div class="section bg-blue-light animated" data-animation="fadeInUp" data-animation-delay="300">
         <div class="container">
-            <h2 class="main-tl blue animated" data-animation="fadeInUp" data-animation-delay="400">School NEWS</h2>
-            <div class="row">
-                <div class="col-sm-4 animated" data-animation="fadeInUp" data-animation-delay="500">
-                    <div class="card box-shadow thumn-desc large">                      
-                        <figure class="card-img-top">
-                            <img class="" src="../public/resourses/images/news/news-01.jpg" alt="Card image cap">
-                            <figcaption class="bg-green">FEBruary 29, 2020</figcaption>
-                        </figure>
-                        <div class="card-body">
-                            <h3>Classroom Management Techniques</h3>
-                            <p>Your child is gearing up to come out of the familiar family fold and see a whole new world. Our Toddler Environment is the perfect place to start this journey.</p>
+            <h2 class="main-tl blue green animated" data-animation="fadeInUp" data-animation-delay="400">School NEWS</h2>
+            <div class="auto-scroll">
+                <div class="row">
+                    <div class="col-sm-4 animated" data-animation="fadeInUp" data-animation-delay="500">
+                        <div class="card box-shadow thumn-desc large">                      
+                            <figure class="card-img-top">
+                                <img class="" src="../public/resourses/images/news/news-01.jpg" alt="Card image cap">
+                                <figcaption class="bg-green-light">FEBruary 29, 2020</figcaption>
+                            </figure>
+                            <div class="card-body">
+                                <h3>Classroom Management Techniques</h3>
+                                <p>Your child is gearing up to come out of the familiar family fold and see a whole new world. Our Toddler Environment is the perfect place to start this journey.</p>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-sm-8">
-                    <div class="row">
-                        <div class="col-sm-6 animated" data-animation="fadeInUp" data-animation-delay="600">
-                            <div class="card box-shadow thumn-desc">                      
-                              <figure class="card-img-top">
-                                  <img class="" src="../public/resourses/images/news/news-02.jpg" alt="Card image cap">
-                                  <figcaption  class="bg-green">FEBruary 29, 2020</figcaption>
-                              </figure>
-                              <div class="card-body">
-                                  <h3>Findout about our Summer Programme</h3>
-                              </div>
-                          </div>
-                        </div>
-                        <div class="col-sm-6 animated" data-animation="fadeInUp" data-animation-delay="700">
-                            <div class="card box-shadow thumn-desc">                      
+                    <div class="col-sm-8">
+                        <div class="row">
+                            <div class="col-sm-6 animated" data-animation="fadeInUp" data-animation-delay="600">
+                                <div class="card box-shadow thumn-desc">                      
                                 <figure class="card-img-top">
-                                    <img class="" src="../public/resourses/images/news/news-03.jpg" alt="Card image cap">
-                                    <figcaption  class="bg-green">FEBruary 29, 2020</figcaption>
+                                    <img class="" src="../public/resourses/images/news/news-02.jpg" alt="Card image cap">
+                                    <figcaption  class="bg-green-light">FEBruary 29, 2020</figcaption>
                                 </figure>
                                 <div class="card-body">
                                     <h3>Findout about our Summer Programme</h3>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-sm-6 animated" data-animation="fadeInUp" data-animation-delay="800">
-                            <div class="card box-shadow thumn-desc">                      
-                                <figure class="card-img-top">
-                                    <img class="" src="../public/resourses/images/news/news-04.jpg" alt="Card image cap">
-                                    <figcaption  class="bg-green">FEBruary 29, 2020</figcaption>
-                                </figure>
-                                <div class="card-body">
-                                    <h3>Findout about our Summer Programme</h3>
+                            </div>
+                            <div class="col-sm-6 animated" data-animation="fadeInUp" data-animation-delay="700">
+                                <div class="card box-shadow thumn-desc">                      
+                                    <figure class="card-img-top">
+                                        <img class="" src="../public/resourses/images/news/news-03.jpg" alt="Card image cap">
+                                        <figcaption  class="bg-green-light">FEBruary 29, 2020</figcaption>
+                                    </figure>
+                                    <div class="card-body">
+                                        <h3>Findout about our Summer Programme</h3>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-sm-6 animated" data-animation="fadeInUp" data-animation-delay="900">
-                            <div class="card box-shadow thumn-desc">                      
-                                <figure class="card-img-top">
-                                    <img class="" src="../public/resourses/images/news/news-05.jpg" alt="Card image cap">
-                                    <figcaption  class="bg-green">FEBruary 29, 2020</figcaption>
-                                </figure>
-                                <div class="card-body">
-                                    <h3>Findout about our Summer Programme</h3>
+                            <div class="col-sm-6 animated" data-animation="fadeInUp" data-animation-delay="800">
+                                <div class="card box-shadow thumn-desc">                      
+                                    <figure class="card-img-top">
+                                        <img class="" src="../public/resourses/images/news/news-04.jpg" alt="Card image cap">
+                                        <figcaption  class="bg-green-light">FEBruary 29, 2020</figcaption>
+                                    </figure>
+                                    <div class="card-body">
+                                        <h3>Findout about our Summer Programme</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 animated" data-animation="fadeInUp" data-animation-delay="900">
+                                <div class="card box-shadow thumn-desc">                      
+                                    <figure class="card-img-top">
+                                        <img class="" src="../public/resourses/images/news/news-05.jpg" alt="Card image cap">
+                                        <figcaption  class="bg-green-light">FEBruary 29, 2020</figcaption>
+                                    </figure>
+                                    <div class="card-body">
+                                        <h3>Findout about our Summer Programme</h3>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -372,7 +389,7 @@
 <!-- Ends : School NEWS -->
 
 <!-- Starts : GET IN TOUCH -->
-    <div class="section bg-white animated" data-animation="fadeInUp" data-animation-delay="300">
+    <div class="section animated" data-animation="fadeInUp" data-animation-delay="300">
         <div class="container">
             <h2 class="main-tl animated" data-animation="fadeInUp" data-animation-delay="300">GET IN TOUCH</h2>
             <div class="row">
@@ -406,6 +423,7 @@
 <!-- Ends : GET IN TOUCH -->
 </main>
 
+<!-- Starts : Footer -->
 <footer class="text-muted">
     <div class="top-sec bg-yellow animated" data-animation="fadeInUp" data-animation-delay="300">
         <div class="container">
@@ -484,5 +502,6 @@
 <script src="../public/resourses/js/masonry.pkgd.min.js"></script>
 <script src="../public/resourses/js/plugins.js"></script>
 <script src="../public/resourses/js/main.js"></script>
+<!-- End : Footer -->
 </body>
 </html>
