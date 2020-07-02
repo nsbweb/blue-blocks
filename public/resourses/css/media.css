@@ -84,6 +84,9 @@ header .nav-scroller .nav > a,
 .banner > .container { display: block !important; text-align: center}
 .banner .banner-img,
 .banner .banner-txt { width:100%; text-align: center; }
+.banner .banner-img { height: 30vh; overflow: hidden; }
+.banner .banner-img img { margin:1% auto; height: 97%; }
+.banner .banner-img:before { background-position: center; }
 
 header .nav-scroller .nav > ul > li.focused ul.dropdown-menu { display: block !important; position: static; float: none; text-align: center; }
 header .header-rt { width:calc(100% - 30em ); position: relative; margin-top: -3em; }
@@ -111,7 +114,7 @@ header .header-rt > .rt-sec:last-child { position: absolute; top: 100%;min-width
 .top-sec { text-align: center; }
 .top-sec h2 { margin: 1.5em 0 0.5em; }
 .card.thumn-desc { height: auto;margin: 1em 0; }
-.card.thumn-desc .card-img-top > img, .info-txt figure > img { max-height: 125px; }
+.card.thumn-desc .card-img-top > img, .info-txt figure > img { max-height: 175px; }
 .info-txt figure { padding: 0 0 1em 0; width: 100%; }
 .info-txt figure > img { width: 100%; object-fit: cover;}
 

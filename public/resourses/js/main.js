@@ -269,7 +269,7 @@ $(".navigation  > ul  > li.has-submenu > a").focus(function() {
 
 $('.single-item-slide').owlCarousel({
     items: 1,
-    loop: false,
+    loop: true,
     margin: 0,
     nav: true,
     mouseDrag: false,
@@ -287,6 +287,7 @@ $('.single-item-slide').owlCarousel({
             items: 1
         }
     },
+    autoHeight:false,
     autoplay: true,
     autoplayTimeout: 8000,
     autoplayHoverPause: true
@@ -314,6 +315,7 @@ $('.carousel').owlCarousel({
             items: 3
         }
     },
+    autoHeight:false,
     autoplay: true,
     autoplayTimeout: 8000,
     autoplayHoverPause: true
@@ -385,3 +387,16 @@ $('.navbar-toggler').click(function(){
 //     x.classList.toggle('colorized');
 //   }
 // };
+
+
+function truncateText(selector, maxLength) {
+    var element = document.querySelector(selector),
+        truncated = element.innerText;
+
+    if (truncated.length > maxLength) {
+        truncated = truncated.substr(0,maxLength) + '...';
+    }
+    return truncated;
+}
+
+document.querySelectorAll('.thumn-desc p').innerText = truncateText('.thumn-desc p', 107);
