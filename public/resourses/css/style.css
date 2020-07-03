@@ -244,6 +244,7 @@ header .social-links > li > a { color:#9f9f9f; }
 .card.thumn-desc .card-body p { font-size: 1.23em; line-height: 1.5em;  }
 .card.thumn-desc .card-body p:last-child { margin-bottom:0;  }
 .card.thumn-desc .card-body h3 { text-transform: uppercase; margin: 0; font-weight: 600; }
+.card.thumn-desc .card-body h3 + h3 { margin-top:0.5rem;}
 .card.thumn-desc .card-body h3.md { font-size: 1.567em; }
 .card.thumn-desc .card-body h3 + p { margin-top: 1.5em; }
 

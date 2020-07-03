@@ -87,7 +87,7 @@ header .header-rt > .rt-sec > i + .txt-Cont { display: none; }
 }
 
 @media (max-width: 599px){
-header .navbar { padding-left: 0; padding-right: 0; box-shadow: 1px 2px 3px rgba(0,0,0,0.3); }
+header .navbar { padding-left: 0; padding-right: 0; box-shadow: 1px 2px 3px rgba(0,0,0,0.3); padding-top: 36px;}
 header .nav-scroller .nav,
 header .nav-scroller .nav > a,
 .banner > .container { display: block !important; text-align: center}
@@ -115,12 +115,13 @@ header .header-rt { width:calc(100% - 30em ); position: relative; margin-top: -3
 .map-container { max-height: 20em; overflow: hidden; }
 .map-container > img { max-height:100%; height: 100%; width:100%; }
 
-.card.trans-box { display: flex; align-items: flex-start; }
+.card.trans-box { display: flex; align-items: flex-start; margin-bottom: 2.5em; }
 .card.trans-box .card-img-top { width:auto; position: absolute; }
 .card.trans-box .card-img-top > img { max-width: 7em; }
-.card.trans-box .card-body { width:calc(100% - 7em); margin-left: 7em; text-align: left; }
+.card.trans-box .card-body { width:calc(100% - 9em); margin-left: 9em; text-align: left; }
 .card.trans-box .card-body > h3 { margin-bottom: 0.5em; font-size: 1.1em; }
 .card.trans-box .card-body .card-text { /*display: none;*/ }
+.card.trans-box .card-body .card-text > p { margin-bottom: 0.25rem; }
 .card.trans-box .card-body .btn-sm { font-size:1em; }
 
 .carousel.three-items .owl-controls .owl-dots { display: none !important; }
@@ -152,14 +153,16 @@ header .header-rt > .rt-sec:last-child { position: absolute; top: 100%;min-width
 .auto-scroll .card.thumn-desc.large .card-img-top > img, 
 .auto-scroll .card.thumn-desc .card-img-top > img { height:125px; }
 .auto-scroll .card.thumn-desc, 
-.auto-scroll > div > div > div.row { height: 100%; margin:0; min-height: 24em; }
+.auto-scroll > div > div > div.row { height: 100%; margin:0; min-height: 29em; }
 .auto-scroll .card.thumn-desc .card-img-top > img, .info-txt figure > img { max-height: 125px; }
 .auto-scroll .card.thumn-desc .card-body h3 + p { display: none; }
 
-.btn-admission { top:100%; right: 0em; }
-.btn-admission > span { width:8em; transition-property: width; transition-duration: 2s; transition-delay: 0s; }
-.btn-admission span > b, .btn-admission span > b + span { width:100%; overflow: hidden; transition-property: width; transition-duration: 2s; transition-delay: 0s; }
+.btn-admission { /*top:100%;*/ right: 0em; left:0; top: 0; width:100%; margin: 0; padding: 0; }
+.btn-anim::before, .btn-anim::after { display:none; }
+.btn-admission > span { /*width:8em; transition-property: width; transition-duration: 2s; transition-delay: 0s;*/ width: calc(100% - 1em); padding: 0.5em 0.5em 0.25em; text-align: center;}
+.btn-admission span > b, .btn-admission span > b + span { /*width:100%; overflow: hidden; transition-property: width; transition-duration: 2s; transition-delay: 0s;*/ display: inline;padding: 0; }
 /* .btn-admission.active > span { width:8em; } 
 .btn-admission.active span > b, .btn-admission.active span > b + span { width:100%;}*/
 .form-sec.lg .form-control { margin-top: 1.8em;}
+.main-tl.large, h1.main-tl { margin-bottom: 0.6em; }
 }
