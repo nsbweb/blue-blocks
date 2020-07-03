@@ -1,3 +1,8 @@
+.hide{
+    display: none;
+}
+.card.modal { background: none; border: 0; height:inherit; margin:inherit; }
+
 @media (min-width: 600px){    
 .abt-sec-wrap > .abt-sec { padding-left: 0; }
 .abt-rt-sec-top > .abt-rt-sec, 
@@ -5,6 +10,8 @@
 header .nav-scroller .nav > a:first-child { margin-left: 0;}
 header .nav-scroller .nav > a:last-child { margin-right: 0;}
 header .nav-scroller .nav > ul {  display: flex;}
+
+.modal-dialog, .modal-content { max-width: 500px; margin: 1.75rem auto; }
 }
 
 @media (min-width: 992px){
@@ -95,7 +102,9 @@ header .header-rt { width:calc(100% - 30em ); position: relative; margin-top: -3
 .navbar-brand { max-width: 105px; }
 .header-sm .navbar-brand { max-width: 75px; }
 .footer-logo { max-width:150px; margin:0 auto; }
-.drone-obj { top: -4.4em;}
+.drone-obj { top: -0.4em; width: 11.3em; height: 10.4em;}
+.creativity-obj { right: 2em;bottom: 1em;width: 10.6em;height: 8.7em;}
+.bag-obj { top: 80%; width: 5.4em; height: 6.33em;}
 .abt-sec .main-tl, .cont-sec .main-tl { text-align: center; }
 .single-item-slide .slide { max-width:75%; }
 .single-item-slide .slide p + ul { justify-content: center; }
@@ -104,10 +113,15 @@ header .header-rt { width:calc(100% - 30em ); position: relative; margin-top: -3
 .map-container { max-height: 20em; overflow: hidden; }
 .map-container > img { max-height:100%; height: 100%; width:100%; }
 
+.card.trans-box { display: flex; align-items: flex-start; }
+.card.trans-box .card-img-top { width:auto; position: absolute; }
 .card.trans-box .card-img-top > img { max-width: 7em; }
-.card.trans-box .card-body > h3 { margin-bottom: 0.5em; font-size: 1.1em;; }
-.card.trans-box .card-body .card-text { display: none; }
+.card.trans-box .card-body { width:calc(100% - 7em); margin-left: 7em; text-align: left; }
+.card.trans-box .card-body > h3 { margin-bottom: 0.5em; font-size: 1.1em; }
+.card.trans-box .card-body .card-text { /*display: none;*/ }
 .card.trans-box .card-body .btn-sm { font-size:1em; }
+
+.carousel.three-items .owl-controls .owl-dots { display: none !important; }
 
 .grid-item > a > img { max-height: 25em; width:100%;  }
 header .header-rt > .rt-sec:last-child { position: absolute; top: 100%;min-width: 150px;text-align: right;right: 0;margin: 0;}
@@ -141,9 +155,9 @@ header .header-rt > .rt-sec:last-child { position: absolute; top: 100%;min-width
 .auto-scroll .card.thumn-desc .card-body h3 + p { display: none; }
 
 .btn-admission { top:100%; right: 0em; }
-.btn-admission > span { width:2em; transition-property: width; transition-duration: 2s; transition-delay: 0s; }
-.btn-admission span > b, .btn-admission span > b + span { width:0em; overflow: hidden; transition-property: width; transition-duration: 2s; transition-delay: 0s; }
-.btn-admission.active > span { width:8em; }
-.btn-admission.active span > b, .btn-admission.active span > b + span { width:100%;}
+.btn-admission > span { width:8em; transition-property: width; transition-duration: 2s; transition-delay: 0s; }
+.btn-admission span > b, .btn-admission span > b + span { width:100%; overflow: hidden; transition-property: width; transition-duration: 2s; transition-delay: 0s; }
+/* .btn-admission.active > span { width:8em; } 
+.btn-admission.active span > b, .btn-admission.active span > b + span { width:100%;}*/
 .form-sec.lg .form-control { margin-top: 1.8em;}
 }

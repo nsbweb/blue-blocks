@@ -236,7 +236,7 @@ header .social-links > li > a { color:#9f9f9f; }
 
 .card.thumn-desc { height: calc(100% - 2.667em); margin: 20px 0;  }
 .card.thumn-desc .card-img-top { width: 100%; margin: 0; position: relative; }
-.card.thumn-desc .card-img-top > img { width: 100%; height: auto; object-fit: cover; max-height: 220px; object-position:top;}
+.card.thumn-desc .card-img-top > img { width: 100%; height: auto; object-fit: cover; max-height: 220px; object-position:center;}
 .card.thumn-desc.large .card-img-top > img { max-height: 320px;;}
 .card.thumn-desc .card-img-top figcaption { position: absolute; left:2.433em; bottom:calc(0% - 2em); color: #ffffff; font-size: 1.23em; font-weight: 600; text-transform: uppercase; padding: 1em 1.667em 1em 1.667em; }
 .card.thumn-desc .card-body { padding: 3.333em 3.333em 2.667em; }

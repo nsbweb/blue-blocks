@@ -269,7 +269,7 @@ $(".navigation  > ul  > li.has-submenu > a").focus(function() {
 
 $('.single-item-slide').owlCarousel({
     items: 1,
-    loop: true,
+    loop: false,
     margin: 0,
     nav: true,
     mouseDrag: false,
@@ -376,7 +376,32 @@ $('.navbar-toggler').click(function(){
         $(this).removeClass('active');
         $('#navbarHeader').slideUp();
     }
-})
+});
+
+// var i;
+// var myDiv = $('.thumn-desc p');
+// myDiv.text(myDiv.text().substring(0,100) + '<a href="#">Read more</a>');
+
+$(function(){
+    var $elem = $('.thumn-desc p'); // The element or elements with the text to hide
+
+    $elem.each(function(i){
+        var $limit = 100; // The number of characters to show
+        var $str = $(this).html(); // Getting the text
+        var $strtemp = $str.substr(0,$limit);   // Get the visible part of the string
+        var $PopUPID = $(this).parent().find('h3').text().replace(/[_\W]+/g, "-").toLowerCase();
+        //var i = -1;
+        $thumbBox = $(this).parents('.thumn-desc').clone().appendTo(".popSec").addClass('modal fade').attr('id',$PopUPID).attr('tabindex', i-- ).attr('role','dialog').attr('aria-labelledby', $PopUPID +'Label').attr('aria-hidden', true).wrapInner( "<div class='modal-body'></div>").append("<div class='modal-footer'><button type='button' class='btn btn-secondary' data-dismiss='modal'>Close</button></div>").wrapInner("<div class='modal-content'></div>").wrapInner("<div class='modal-dialog' role='document></div>");
+        
+        $str = $strtemp+ ' <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#'+ $PopUPID + '">' + 'Read More' + '</button>' + '<span class="hide">' + $str.substr($limit,$str.length) + '</span>';  // Recompose the string with the span tag wrapped around the hidden part of it
+        $(this).html($str); // Write the string to the DOM 
+    });
+
+    $elem.parents('body').find('.show').addClass('WeFoundYou').find('button').attr('data-dismiss','modal').click(function(){
+        alert('we Found You');
+    });
+});
+
 
 // let theButton = document.getElementsByClassName('navbar-toggler');
 // let theText = document.getElementById('');
@@ -387,16 +412,3 @@ $('.navbar-toggler').click(function(){
 //     x.classList.toggle('colorized');
 //   }
 // };
-
-
-function truncateText(selector, maxLength) {
-    var element = document.querySelector(selector),
-        truncated = element.innerText;
-
-    if (truncated.length > maxLength) {
-        truncated = truncated.substr(0,maxLength) + '...';
-    }
-    return truncated;
-}
-
-document.querySelectorAll('.thumn-desc p').innerText = truncateText('.thumn-desc p', 107);
