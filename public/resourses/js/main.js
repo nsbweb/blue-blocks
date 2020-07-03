@@ -288,7 +288,7 @@ $('.single-item-slide').owlCarousel({
         }
     },
     autoHeight:false,
-    autoplay: true,
+    autoplay: false,
     autoplayTimeout: 8000,
     autoplayHoverPause: true
 });
@@ -316,7 +316,7 @@ $('.carousel').owlCarousel({
         }
     },
     autoHeight:false,
-    autoplay: true,
+    autoplay: false,
     autoplayTimeout: 8000,
     autoplayHoverPause: true
 });
@@ -383,23 +383,32 @@ $('.navbar-toggler').click(function(){
 // myDiv.text(myDiv.text().substring(0,100) + '<a href="#">Read more</a>');
 
 $(function(){
-    var $elem = $('.thumn-desc p'); // The element or elements with the text to hide
+    var $elem = $('.slide .thumn-desc p'); // The element or elements with the text to hide
 
     $elem.each(function(i){
         var $limit = 100; // The number of characters to show
         var $str = $(this).html(); // Getting the text
         var $strtemp = $str.substr(0,$limit);   // Get the visible part of the string
         var $PopUPID = $(this).parent().find('h3').text().replace(/[_\W]+/g, "-").toLowerCase();
+
+        $(this).parents('.thumn-desc').attr('id', $PopUPID);
         //var i = -1;
-        $thumbBox = $(this).parents('.thumn-desc').clone().appendTo(".popSec").addClass('modal fade').attr('id',$PopUPID).attr('tabindex', i-- ).attr('role','dialog').attr('aria-labelledby', $PopUPID +'Label').attr('aria-hidden', true).wrapInner( "<div class='modal-body'></div>").append("<div class='modal-footer'><button type='button' class='btn btn-secondary' data-dismiss='modal'>Close</button></div>").wrapInner("<div class='modal-content'></div>").wrapInner("<div class='modal-dialog' role='document></div>");
+        // $thumbBox = $(this).parents('.thumn-desc').clone().appendTo(".popSec").addClass('modal fade').attr('id',$PopUPID).attr('tabindex', i-- ).attr('role','dialog').attr('aria-labelledby', $PopUPID +'Label').attr('aria-hidden', true).wrapInner( "<div class='modal-body'></div>").append("<div class='modal-footer'><button type='button' class='btn btn-secondary' data-dismiss='modal'>Close</button></div>").wrapInner("<div class='modal-content'></div>").wrapInner("<div class='modal-dialog' role='document></div>");
         
-        $str = $strtemp+ ' <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#'+ $PopUPID + '">' + 'Read More' + '</button>' + '<span class="hide">' + $str.substr($limit,$str.length) + '</span>';  // Recompose the string with the span tag wrapped around the hidden part of it
+        // $str = $strtemp+ ' <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#'+ $PopUPID + '">' + 'Read More' + '</button>' + '<span class="hide">' + $str.substr($limit,$str.length) + '</span>';  // Recompose the string with the span tag wrapped around the hidden part of it
+        $str = $strtemp+ ' <a class="inline-popup" href="#'+ $PopUPID + '">' + 'Read More' + '</a>' + '<span class="hide">' + $str.substr($limit,$str.length) + '</span>';
         $(this).html($str); // Write the string to the DOM 
     });
 
-    $elem.parents('body').find('.show').addClass('WeFoundYou').find('button').attr('data-dismiss','modal').click(function(){
-        alert('we Found You');
-    });
+    $('.inline-popup').magnificPopup({
+        type:'inline',
+        mainClass: 'mfp-with-zoom',
+        midClick: true // Allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source in href.
+      });
+
+    // $elem.parents('body').find('.show').addClass('WeFoundYou').find('button').attr('data-dismiss','modal').click(function(){
+    //     alert('we Found You');
+    // });
 });
 
 

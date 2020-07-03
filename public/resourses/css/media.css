@@ -11,7 +11,9 @@ header .nav-scroller .nav > a:first-child { margin-left: 0;}
 header .nav-scroller .nav > a:last-child { margin-right: 0;}
 header .nav-scroller .nav > ul {  display: flex;}
 
-.modal-dialog, .modal-content { max-width: 500px; margin: 1.75rem auto; }
+.modal-dialog, .modal-content, .mfp-content > .card.thumn-desc { max-width: 500px; margin: 1.75rem auto; }
+.mfp-content .card.thumn-desc .card-body p .hide { display: inline; }
+.mfp-content .card.thumn-desc .card-body p .inline-popup { display: none; }
 }
 
 @media (min-width: 992px){
